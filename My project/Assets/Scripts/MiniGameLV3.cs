@@ -25,7 +25,7 @@ public class MiniGameLV3 : MonoBehaviour
             count++;
             Debug.Log(count);
 
-            if(count == 20)
+            if(count == 13)
             {
                 finishSound.Play();
                 

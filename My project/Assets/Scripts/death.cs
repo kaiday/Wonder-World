@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class death : MonoBehaviour
 {
-    public GameObject Obj;
-    public GameObject DeathText;
+    [SerializeField] private GameObject Obj;
+    [SerializeField] private GameObject DeathText;
     void Awake()
     {
         DeathText.active = false;
