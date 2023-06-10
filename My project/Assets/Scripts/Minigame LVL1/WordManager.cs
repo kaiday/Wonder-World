@@ -20,7 +20,7 @@ public class WordManager : MonoBehaviour
         Debug.Log(word.word);
         
         words.Add(word);
-    }
+    }       
 
     public void TypeLetter(char letter)
     {
