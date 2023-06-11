@@ -15,7 +15,7 @@ public class death : MonoBehaviour
     {
        if (other.gameObject.tag == "Player")
         {
-            DeathText.active = true;
+            DeathText.SetActive(true);
             Destroy(Obj);
         };
     }
