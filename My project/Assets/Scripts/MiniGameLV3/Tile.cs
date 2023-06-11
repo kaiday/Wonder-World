@@ -11,7 +11,7 @@ public class Tile : MonoBehaviour
         public Color outlineColor;
     }
 
-    public State state { get; private set; }
+    public State state { get; private set; }    
     public char letter { get; private set; }
 
     private Image fill;
