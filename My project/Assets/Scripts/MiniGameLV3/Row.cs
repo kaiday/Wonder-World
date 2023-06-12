@@ -4,7 +4,7 @@ public class Row : MonoBehaviour
 {
     public Tile[] tiles { get; private set; }
 
-    public string word
+    /*public string word
     {
         get
         {
@@ -16,7 +16,7 @@ public class Row : MonoBehaviour
 
             return word;
         }
-    }
+    }*/
 
     private void Awake()
     {
