@@ -1,9 +1,7 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class QuizManager : MonoBehaviour
 {
@@ -13,8 +11,10 @@ public class QuizManager : MonoBehaviour
 
     public GameObject QuizPanel;
     public GameObject OverPanel;
-    
+
     public Text QuestionTxt;
+    public Text hintTxt;
+    public Image imageHint;
     public Text ScoreTxt;
     public Text QuizText;
     public Image Ranking;
@@ -38,6 +38,11 @@ public class QuizManager : MonoBehaviour
     public void retry()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Continue()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
     public void GameOver()
@@ -84,6 +89,8 @@ public class QuizManager : MonoBehaviour
             currentQuestion = Random.Range(0, QnA.Count);
             
                     QuestionTxt.text = QnA[currentQuestion].Question;
+                    hintTxt.text = "Hint: " + QnA[currentQuestion].hint;
+                    imageHint.GetComponent<Image>().sprite = QnA[currentQuestion].questionImage;
                     setAnswer();
         }
         else
@@ -96,33 +103,23 @@ public class QuizManager : MonoBehaviour
 
     void compareMedal()
     {
-        switch (quizCount)
+        if (quizCount > 3 && quizCount <= 6)
         {
-            case 1:  
-            {
-                Debug.Log("You got Bronze!");
-                Ranking.GetComponent<Image>().sprite = Bronze;
-                break;
-            } 
-            case 2:
-            {
-                Debug.Log("You got Silver!");
-                Ranking.GetComponent<Image>().sprite = Silver;
-                break;
-            }
-            case 3:
-            {
-                Debug.Log("You got Gold!");
-                Ranking.GetComponent<Image>().sprite = Gold;
-                break;
-            }
-            default:
-            {
-                Debug.Log("You failed!");
-                Ranking.GetComponent<Image>().sprite = Fail;
-                break;
-            }
+            Debug.Log("You got Bronze!");
+            Ranking.GetComponent<Image>().sprite = Bronze;
+        }else if (quizCount > 6 && quizCount <= 8)
+        {
+            Debug.Log("You got Silver!");
+            Ranking.GetComponent<Image>().sprite = Silver;
+        }else if (quizCount > 8 && quizCount <= 10)
+        {
+            Debug.Log("You got Gold!");
+            Ranking.GetComponent<Image>().sprite = Gold;
         }
-        
+        else
+        {
+            Debug.Log("You failed!");
+            Ranking.GetComponent<Image>().sprite = Fail;
+        }
     }
 }
