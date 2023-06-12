@@ -41,7 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ScriptLV1.cs" />
      <Compile Include="Assets\Scripts\Minigame LVL1\WordManager.cs" />
+     <Compile Include="Assets\Scripts\showSecret.cs" />
      <Compile Include="Assets\Scripts\Minigame LVL1\wordDisplay.cs" />
      <Compile Include="Assets\Scripts\ItemCollector.cs" />
      <Compile Include="Assets\Scripts\Portal.cs" />
@@ -92,6 +94,7 @@
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\AdditionAsset\Tiles" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Pirate Treasure\Sprites\Red Potion" />
+     <Folder Include="Assets\AdditionAsset\Sands" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Pirate Treasure\Sprites\Potion Effect" />
      <Folder Include="Assets\Scripts\QuizGame(LVL4)" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Pirate Ship\Sprites\Decorations\Chains\Small" />
@@ -225,6 +228,7 @@
      <Folder Include="Assets\Pixel Adventure 1\Assets\Items" />
      <None Include="Assets\CasualGameBGM05\ReadMe.txt" />
      <Folder Include="Assets\Pixel Adventure 2\Assets\Enemies\Skull" />
+     <Folder Include="Assets\AdditionAsset\Sands\Tiles" />
      <Folder Include="Assets\Pixel Adventure 1\Assets\Traps\Sand Mud Ice" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\The Crusty Crew\Sprites\Crabby\06-Anticipation" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Captain Clown Nose\Sprites\Captain Clown Nose\Captain Clown Nose without Sword\05-Ground" />
@@ -280,6 +284,7 @@
      <Folder Include="Assets\Animation\VirtualGuyAnimation" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Shooter Traps\Sprites\Totems\Head 1\Idle 1" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\The Crusty Crew\Sprites\Crabby\03-Jump" />
+     <Folder Include="Assets\AdditionAsset\Dungeon\Materials" />
      <None Include="Assets\ArcadeGameBGM#17\ReadMe.txt" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Palm Tree Island\Sprites" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\The Crusty Crew\Sprites\Fierce Tooth" />
