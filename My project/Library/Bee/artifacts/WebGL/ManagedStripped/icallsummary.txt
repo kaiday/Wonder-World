@@ -22,7 +22,6 @@ UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::Quit
 UnityEngine.Application::get_platform
-UnityEngine.AsyncOperation::get_isDone
 UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.AudioSource::PlayHelper
 UnityEngine.Behaviour::get_enabled
@@ -180,7 +179,6 @@ UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::TryGetComponentInternal
-UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
 UnityEngine.Gizmos::DrawLine_Injected
 UnityEngine.Gizmos::DrawWireSphere_Injected
@@ -502,9 +500,6 @@ UnityEngine.SceneManagement.Scene::GetNameInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
-UnityEngine.SceneManagement.SceneManager::GetSceneByName_Injected
-UnityEngine.SceneManagement.SceneManager::MoveGameObjectToScene_Injected
-UnityEngine.SceneManagement.SceneManager::UnloadSceneAsyncInternal_Injected
 UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
