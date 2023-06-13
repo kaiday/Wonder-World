@@ -34,6 +34,10 @@ public class Board : MonoBehaviour
     public Button newWordButton;
     public TextMeshProUGUI invalidWordText;
 
+    [Header("Hint")]
+    //public Image hintImage;
+    public TextMeshProUGUI hintText;
+
     private void Awake(){
         rows = GetComponentsInChildren<Row>();
     }
@@ -46,6 +50,7 @@ public class Board : MonoBehaviour
     public void NewGame(){
         ClearBoard();
         SetRandomWord();
+        SetRandomHint();
         enabled = true;
     }
     
@@ -65,9 +70,65 @@ public class Board : MonoBehaviour
     private void SetRandomWord(){
         word = solutions[Random.Range(0,solutions.Length)];
         word = word.ToLower().Trim();
+  
+    }
+
+    private void SetRandomHint()
+    {
+        switch (word.ToLower()){
+            case "mixer":
+                hintText.text = "Device used for mixing ingredients";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "apron":
+                hintText.text = "Một chiếc áo bảo hộ để che phủ người khi nấu ăn";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "plate":
+                hintText.text = "Một đĩa dùng để đựng và phục vụ thức ăn";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "knife":
+                hintText.text = "Dụng cụ để cắt và chặt";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "spoon":
+                hintText.text = "Dụng cụ để múc và khuấy";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "stick":
+                hintText.text = "Cái que nhỏ để khuấy hoặc xiên";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "stove":
+                hintText.text = "Bếp để nấu ăn, bếp lò";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "sugar":
+                hintText.text = "Chất làm ngọt";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "glass":
+                hintText.text = "Cái cốc, cái ly";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "phone":
+                hintText.text = "Thiết bị di động để liên lạc";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "games":
+                hintText.text = "Trò chơi";
+                hintText.gameObject.SetActive(true);
+                break;
+            case "hello":
+                hintText.text = "Lời chào";
+                hintText.gameObject.SetActive(true);
+                break;            
+            
+        }
         
     }
-     
+
     private void Update()
     {
         Row currentRow = rows[rowIndex];
@@ -78,7 +139,6 @@ public class Board : MonoBehaviour
             columnIndex = Mathf.Max(columnIndex -1, 0);
             currentRow.tiles[columnIndex].SetLetter('\0');
             currentRow.tiles[columnIndex].SetState(emptyState);
-           //invalidWordText.gameObject.SetActive(false);
         }
 
         else if  (columnIndex >= rows[rowIndex].tiles.Length)
@@ -157,14 +217,7 @@ public class Board : MonoBehaviour
         rowIndex = 0;
         columnIndex = 0;
     }
-    /*private bool IsValidWord(string word){
-        for(int i = 0; i < validWords.Length; i++){
-            if(validWords[i] == word){
-                return true;
-            }
-        }
-        return false;
-    }*/
+    
     private bool HasWon(Row row){
         for(int i = 0;i< row.tiles.Length;i++){
             if (row.tiles[i].state != correctState ) {
