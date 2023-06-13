@@ -8,6 +8,7 @@ public class wordDisplay : MonoBehaviour
 {
     public Text text;
     public wordScore score;
+    public WordManager manager;
 
     public float fallSpeed = 1f;
     public void setWord(string word)
@@ -24,6 +25,7 @@ public class wordDisplay : MonoBehaviour
     public void removeWord()
     {
         Destroy(gameObject);
+        manager.removeActiveWord();
     }
 
     private void Update()

@@ -11,8 +11,8 @@ public class WordManager : MonoBehaviour
     public wordSpawner wordSpawner;
     public wordScore wordScore;
     
-    private bool hasActiveWord;
-    private Word activeWord;
+    public bool hasActiveWord;
+    public Word activeWord;
 
     public void AddWord()
     {
@@ -51,5 +51,11 @@ public class WordManager : MonoBehaviour
             words.Remove(activeWord);
             wordScore.addScore();
         }
+    }
+
+    public void removeActiveWord()
+    {
+        hasActiveWord = false;
+        words.Remove(activeWord);
     }
 }

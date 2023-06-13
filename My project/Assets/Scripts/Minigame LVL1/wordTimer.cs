@@ -5,7 +5,7 @@ using UnityEngine;
 public class wordTimer : MonoBehaviour
 {
     public WordManager WordManager;
-    public float wordDelay = 1f;
+    public float wordDelay = 4f;
     private float nextWordTime = 0f;
 
     private void Update()
@@ -14,7 +14,6 @@ public class wordTimer : MonoBehaviour
         {
             WordManager.AddWord();
             nextWordTime = Time.time + wordDelay;
-            wordDelay *= 1.99f;
         }
     }
 }

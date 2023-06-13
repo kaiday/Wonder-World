@@ -57,6 +57,11 @@ public class wordScore : MonoBehaviour
 
     private void Update()
     {
+        if (Score >= 150)
+        {
+            restart.skipButton.SetActive(true);
+        }
+        
         if (Lives == 0)
         {
             finalScore = Score * Count;
