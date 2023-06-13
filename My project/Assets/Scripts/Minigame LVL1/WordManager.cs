@@ -8,6 +8,7 @@ public class WordManager : MonoBehaviour
 {
     public List<Word> words;
 
+    
     public wordSpawner wordSpawner;
     public wordScore wordScore;
     
@@ -52,4 +53,6 @@ public class WordManager : MonoBehaviour
             wordScore.addScore();
         }
     }
+
+    
 }

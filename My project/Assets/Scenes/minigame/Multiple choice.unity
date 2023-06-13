@@ -154,7 +154,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1179182494}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -406,7 +406,7 @@ MonoBehaviour:
     - Console
     CorrentAnswer: 1
     questionImage: {fileID: -569523962, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Small, Portable and is a computer
+    hint: "M\xE1y t\xEDnh x\xE1c tay"
   - Question: What is this item?
     Answer:
     - Book
@@ -415,7 +415,7 @@ MonoBehaviour:
     - Phone
     CorrentAnswer: 4
     questionImage: {fileID: -1390421933, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Small, Portable and like a tablet
+    hint: "\u0110i\u1EC7n tho\u1EA1i th\xEC g\u1ECDi l\xE0 g\xEC nh\u1EC9"
   - Question: What is this item?
     Answer:
     - Battery
@@ -423,71 +423,74 @@ MonoBehaviour:
     - Camera
     - Disk
     CorrentAnswer: 3
-    questionImage: {fileID: 1963300518, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Take picture *click*
+    questionImage: {fileID: -1104974495, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
+    hint: "M\xE1y \u1EA3nh ch\u1EE5p *t\xE1ch *t\xE1ch"
   - Question: What is this item?
     Answer:
-    - Pills
-    - Bandage
-    - Syringe
-    - Bottle
-    CorrentAnswer: 2
-    questionImage: {fileID: -1719911897, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Help you when you bleed
-  - Question: What is this item?
-    Answer:
-    - Keys
+    - Door
     - Hammer
-    - Lock and Keys
+    - Keys
     - Chain
     CorrentAnswer: 3
-    questionImage: {fileID: -1309348938, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Secure your item locker
+    questionImage: {fileID: 493750595, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
+    hint: "Ch\xECa kh\xF3a, \u0111\u1EC3 b\u1EA3o v\u1EC7 nh\xE0 kh\u1ECFi k\u1EBB
+      tr\u1ED9m"
   - Question: What is this item?
     Answer:
-    - Knife
-    - Crowbar
-    - Hammer
-    - Wrench
-    CorrentAnswer: 1
-    questionImage: {fileID: 1732204838, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Cuts and Sharp (Londoners)
-  - Question: What is this item?
-    Answer:
-    - Notes
-    - Board
-    - Calender
-    - Clock
-    CorrentAnswer: 3
-    questionImage: {fileID: -1635602308, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Tell you the date
-  - Question: What is this item?
-    Answer:
-    - List
+    - Pencil
     - Notes
     - Book
-    - Newspaper
+    - Paper
     CorrentAnswer: 2
     questionImage: {fileID: -1783132634, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Uses to take note and is made from paper
+    hint: "V\u1EDF \u0111\u1EC3 gi\xFAp em ghi b\xE0i "
   - Question: What is this item?
     Answer:
     - Phone
     - Camera
-    - Flashlight
+    - Box
     - Candle
-    CorrentAnswer: 3
-    questionImage: {fileID: 744860380, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Use to light things up (ahh dont shine it at me)
+    CorrentAnswer: 4
+    questionImage: {fileID: 1685289731, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
+    hint: "N\u1EBFn \u0111\u1EC3 th\u1EAFp s\xE1ng th\xEC g\u1ECDi l\xE0 g\xEC nh\u1EC9?"
   - Question: What is this item?
     Answer:
     - Trashcan
-    - Cabinet
-    - Toolbox
+    - Car
+    - Phone
     - Book
     CorrentAnswer: 1
     questionImage: {fileID: 1982262772, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
-    hint: Uses to store items that is useless
+    hint: "Th\xF9ng r\xE1c, h\xE3y gi\xFAp m\xF4i tr\u01B0\u1EDDng tr\u1EDF n\xEAn
+      xanh h\u01A1n em nh\xE9"
+  - Question: What is this item?
+    Answer:
+    - Pen
+    - Pencil
+    - Eraser
+    - Book
+    CorrentAnswer: 2
+    questionImage: {fileID: 1092562901, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
+    hint: "B\xFAt ch\xEC! Gi\xFAp em trong r\u1EA5t nhi\u1EC1u th\u1EE9"
+  - Question: What is this item?
+    Answer:
+    - Ruler
+    - Pencil
+    - Eraser
+    - Clock
+    CorrentAnswer: 4
+    questionImage: {fileID: -1486369816, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
+    hint: "\u0110\u1ED3ng h\u1ED3, gi\xFAp em xem th\u1EDDi gian"
+  - Question: What is this item?
+    Answer:
+    - Water
+    - Box
+    - Eraser
+    - Ruler
+    CorrentAnswer: 4
+    questionImage: {fileID: -2133944384, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
+    hint: "Th\u01B0\u1EDBc k\u1EBB, gi\xFAp em c\xF3 th\u1EC3 \u0111o \u0111\u1ED9
+      d\xE0i"
   options:
   - {fileID: 985273558}
   - {fileID: 1271990902}
@@ -2372,8 +2375,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1744284578}
   - {fileID: 84532721}
   - {fileID: 1323878106}
+  - {fileID: 1828154769}
   - {fileID: 1711399583}
   m_Father: {fileID: 457883877}
   m_RootOrder: 0
@@ -2632,7 +2637,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1179182494}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2668,11 +2673,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 15e2cc513dd2c79499d1eb350075c9f3, type: 3}
-    m_FontSize: 10
-    m_FontStyle: 0
+    m_Font: {fileID: 12800000, guid: cbdb6c87ebcc7e349a968c83b005ce15, type: 3}
+    m_FontSize: 15
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2717,7 +2722,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -216.14, y: 2.72}
+  m_AnchoredPosition: {x: -215, y: 18}
   m_SizeDelta: {x: 231.36, y: 108.96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1344471350
@@ -2865,11 +2870,11 @@ RectTransform:
   m_GameObject: {fileID: 1711399582}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1179182494}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2914,6 +2919,82 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1744284577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1744284578}
+  - component: {fileID: 1744284580}
+  - component: {fileID: 1744284579}
+  m_Layer: 5
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1744284578
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744284577}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.2205172, y: 0.73875666, z: 1.0233859}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1179182494}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 53.8, y: -26.3}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1744284579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744284577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8b79e4ed66980bd42a6e81e5e5487f98, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1744284580
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744284577}
+  m_CullTransparentMesh: 1
 --- !u!1 &1750827071
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,6 +3123,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1828154768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828154769}
+  - component: {fileID: 1828154771}
+  - component: {fileID: 1828154770}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1828154769
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828154768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0471497, y: 1.0471497, z: 1.3961995}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1179182494}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -160.99974, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1828154770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828154768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8dd8eb476709ce5488350f637ba3a475, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1828154771
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828154768}
+  m_CullTransparentMesh: 1
 --- !u!1 &1860882160
 GameObject:
   m_ObjectHideFlags: 0
@@ -27462,3 +27619,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ad2873fbff1d7f49b7ba771d2860c5b, type: 3}
+--- !u!1 &5395313176018537421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5395313174938468638, guid: 3ad2873fbff1d7f49b7ba771d2860c5b, type: 3}
+  m_PrefabInstance: {fileID: 5395313176018537420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5395313176018537422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5395313176018537421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d131d64bd63544b82a439e6aeb1718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
