@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 public class wordRestart : MonoBehaviour
 {
-    [SerializeField] public Button retryButton;
-    [SerializeField] public Button continueButton;
+    [SerializeField] public GameObject retryButton;
+    [SerializeField] public GameObject continueButton;
     void Start()
     {
-        retryButton.setActive(false);
-        continueButton.setActive(false);
+        retryButton.SetActive(false);
+        continueButton.SetActive(false);
     }
 
     public void retry()
