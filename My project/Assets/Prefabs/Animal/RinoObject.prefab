@@ -107,13 +107,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6673333014981382367}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.78, y: -5.27, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.05000019, y: 0.8800001, z: 0.0011518628}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 60665641599454538}
-  m_RootOrder: 3
+  m_Father: {fileID: 7703885590730862764}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &6673333014981382362
 BoxCollider2D:
@@ -153,6 +153,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d40d49f873643e18edb161fed36452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathhitbox: {fileID: 0}
+  playerTransform: {fileID: 0}
+  deathhitboxPosition: {x: 0, y: 0, z: 0}
   Obj: {fileID: 60665641599454539}
   DeathText: {fileID: 6673333015645393206}
 --- !u!1 &6673333015186555040
@@ -494,3 +497,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &7703885590730862764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3924256118100625144, guid: 3631cfb711573414a9e35d86b0700688, type: 3}
+  m_PrefabInstance: {fileID: 6673333016003737172}
+  m_PrefabAsset: {fileID: 0}

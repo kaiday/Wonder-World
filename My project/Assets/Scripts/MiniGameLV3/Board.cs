@@ -97,7 +97,7 @@ public class Board : MonoBehaviour
                 hintText.gameObject.SetActive(true);
                 break;
             case "plate":
-                hintText.text = "Một đĩa dùng để đựng và phục vụ thức ăn";
+                hintText.text = "Một cái đĩa dùng để đựng thức ăn";
                 hintText.gameObject.SetActive(true);
                 break;
             case "knife":
@@ -105,11 +105,11 @@ public class Board : MonoBehaviour
                 hintText.gameObject.SetActive(true);
                 break;
             case "spoon":
-                hintText.text = "Dụng cụ để múc và khuấy";
+                hintText.text = "Vật dụng để múc và khuấy";
                 hintText.gameObject.SetActive(true);
                 break;
             case "stick":
-                hintText.text = "Cái que nhỏ để khuấy hoặc xiên";
+                hintText.text = "Cái que nhỏ để xiên";
                 hintText.gameObject.SetActive(true);
                 break;
             case "stove":
@@ -117,7 +117,7 @@ public class Board : MonoBehaviour
                 hintText.gameObject.SetActive(true);
                 break;
             case "sugar":
-                hintText.text = "Chất làm ngọt";
+                hintText.text = "Một thứ bột màu trắng rất ngọt";
                 hintText.gameObject.SetActive(true);
                 break;
             case "glass":
@@ -133,7 +133,7 @@ public class Board : MonoBehaviour
                 hintText.gameObject.SetActive(true);
                 break;
             case "hello":
-                hintText.text = "Lời chào";
+                hintText.text = "Xin chào trong tiếng Anh là gì nhỉ?";
                 hintText.gameObject.SetActive(true);
                 break;            
             
