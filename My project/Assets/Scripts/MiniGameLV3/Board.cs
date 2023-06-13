@@ -21,7 +21,9 @@ public class Board : MonoBehaviour
 
     private int rowIndex;
     private int columnIndex;
-
+    public int Win;
+    
+        
     [Header("States")]
     public Tile.State emptyState;
     public Tile.State occupiedState;
@@ -33,7 +35,8 @@ public class Board : MonoBehaviour
     public Button tryAgainButton;
     public Button newWordButton;
     public TextMeshProUGUI invalidWordText;
-
+    [SerializeField] private GameObject exit;
+    
     [Header("Hint")]
     //public Image hintImage;
     public TextMeshProUGUI hintText;
@@ -42,7 +45,10 @@ public class Board : MonoBehaviour
         rows = GetComponentsInChildren<Row>();
     }
 
-    private void Start(){
+    private void Start()
+    {
+        exit.SetActive(false);
+        Win = 0;
         LoadData();
         NewGame();
     }
@@ -56,6 +62,12 @@ public class Board : MonoBehaviour
     
     public void TryAgain(){
         ClearBoard();
+        enabled = true;
+    }
+
+    public void Exit()
+    {
+        ExitGame();
         enabled = true;
     }
 
@@ -197,7 +209,13 @@ public class Board : MonoBehaviour
             }
         }
         
-        if (HasWon(row)){
+        if (HasWon(row))
+        {
+            Win += 1;
+            if (Win > 1)
+            {
+                exit.SetActive(true);
+            }
             enabled = false;
         }
 
@@ -237,7 +255,8 @@ public class Board : MonoBehaviour
     }
     public void ExitGame()
     {
-        SceneManager.LoadScene("Level 4"); // Replace "MainMenu" with the name of your main menu scene
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // Replace "MainMenu" with the name of your main menu scene
     }
 }
 

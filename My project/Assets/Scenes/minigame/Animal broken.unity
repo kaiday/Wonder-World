@@ -10429,30 +10429,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.9301238}
   serializedVersion: 2
   m_Radius: 0.069876194
---- !u!114 &1941282974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941282953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ae3d44a862aa41719248445bfb0fbde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1941282975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1941282953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c8f2c3ff6bc1c44fb6869b60570cf3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2052741098
 GameObject:
   m_ObjectHideFlags: 0
@@ -61609,6 +61585,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3235491099226202469, guid: 14d25e757126398469312fa4fb09e824, type: 3}
+      propertyPath: m_Size.y
+      value: 1.177192
+      objectReference: {fileID: 0}
+    - target: {fileID: 3235491099226202469, guid: 14d25e757126398469312fa4fb09e824, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.13206351
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477339443246750197, guid: 14d25e757126398469312fa4fb09e824, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.487
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477339443940428634, guid: 14d25e757126398469312fa4fb09e824, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.518
+      objectReference: {fileID: 0}
     - target: {fileID: 7785047952140333523, guid: 14d25e757126398469312fa4fb09e824, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 316
