@@ -5464,24 +5464,28 @@ struct Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A  : public MonoBehaviour_t
 	int32_t ___rowIndex_9;
 	// System.Int32 Board::columnIndex
 	int32_t ___columnIndex_10;
+	// System.Int32 Board::Win
+	int32_t ___Win_11;
 	// Tile/State Board::emptyState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___emptyState_11;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___emptyState_12;
 	// Tile/State Board::occupiedState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___occupiedState_12;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___occupiedState_13;
 	// Tile/State Board::correctState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___correctState_13;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___correctState_14;
 	// Tile/State Board::wrongSpotState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___wrongSpotState_14;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___wrongSpotState_15;
 	// Tile/State Board::incorrectState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___incorrectState_15;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___incorrectState_16;
 	// UnityEngine.UI.Button Board::tryAgainButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___tryAgainButton_16;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___tryAgainButton_17;
 	// UnityEngine.UI.Button Board::newWordButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___newWordButton_17;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___newWordButton_18;
 	// TMPro.TextMeshProUGUI Board::invalidWordText
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___invalidWordText_18;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___invalidWordText_19;
+	// UnityEngine.GameObject Board::exit
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___exit_20;
 	// TMPro.TextMeshProUGUI Board::hintText
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___hintText_19;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___hintText_21;
 };
 
 // CameraController
@@ -8193,9 +8197,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3299[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3300[3] = 
 {
 	static_cast<int32_t>(offsetof(wordTimer_tA726ED5AC74A847BB9F6D128ABD4756ECBFC1C36, ___WordManager_4)),static_cast<int32_t>(offsetof(wordTimer_tA726ED5AC74A847BB9F6D128ABD4756ECBFC1C36, ___wordDelay_5)),static_cast<int32_t>(offsetof(wordTimer_tA726ED5AC74A847BB9F6D128ABD4756ECBFC1C36, ___nextWordTime_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3301[16] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3301[18] = 
 {
-	static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A_StaticFields, ___SUPPORTED_KEYS_4)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___rows_5)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___solutions_6)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___validWords_7)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___word_8)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___rowIndex_9)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___columnIndex_10)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___emptyState_11)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___occupiedState_12)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___correctState_13)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___wrongSpotState_14)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___incorrectState_15)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___tryAgainButton_16)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___newWordButton_17)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___invalidWordText_18)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___hintText_19)),};
+	static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A_StaticFields, ___SUPPORTED_KEYS_4)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___rows_5)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___solutions_6)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___validWords_7)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___word_8)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___rowIndex_9)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___columnIndex_10)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___Win_11)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___emptyState_12)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___occupiedState_13)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___correctState_14)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___wrongSpotState_15)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___incorrectState_16)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___tryAgainButton_17)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___newWordButton_18)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___invalidWordText_19)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___exit_20)),static_cast<int32_t>(offsetof(Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A, ___hintText_21)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3302[1] = 
 {
 	static_cast<int32_t>(offsetof(Row_t474FDCAC09FAF8DF13C5ACFE241ED7A7FCB43DDD, ___U3CtilesU3Ek__BackingField_4)),};

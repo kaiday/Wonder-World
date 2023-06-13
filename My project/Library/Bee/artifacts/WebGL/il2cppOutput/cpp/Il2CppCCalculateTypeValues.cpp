@@ -39681,24 +39681,28 @@ struct Board_t924A10F2404EA6D3DB02711555BEDFD794B70C1A  : public MonoBehaviour_t
 	int32_t ___rowIndex_9;
 	// System.Int32 Board::columnIndex
 	int32_t ___columnIndex_10;
+	// System.Int32 Board::Win
+	int32_t ___Win_11;
 	// Tile/State Board::emptyState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___emptyState_11;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___emptyState_12;
 	// Tile/State Board::occupiedState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___occupiedState_12;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___occupiedState_13;
 	// Tile/State Board::correctState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___correctState_13;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___correctState_14;
 	// Tile/State Board::wrongSpotState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___wrongSpotState_14;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___wrongSpotState_15;
 	// Tile/State Board::incorrectState
-	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___incorrectState_15;
+	State_t131C25C6E867170E577E301A1631C193FB5FBEAA* ___incorrectState_16;
 	// UnityEngine.UI.Button Board::tryAgainButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___tryAgainButton_16;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___tryAgainButton_17;
 	// UnityEngine.UI.Button Board::newWordButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___newWordButton_17;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___newWordButton_18;
 	// TMPro.TextMeshProUGUI Board::invalidWordText
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___invalidWordText_18;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___invalidWordText_19;
+	// UnityEngine.GameObject Board::exit
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___exit_20;
 	// TMPro.TextMeshProUGUI Board::hintText
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___hintText_19;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___hintText_21;
 };
 
 // UnityEngine.BoxCollider2D
