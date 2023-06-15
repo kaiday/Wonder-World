@@ -4944,8 +4944,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void death__ctor_mFD5D61D2BFB2F0DB75406149B19
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void deathtext::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void deathtext_Start_m72B58DC670191C98ED6539C1C30F5DB58390D3A2 (deathtext_tB42F50478B7563216D4049C8B17B2ADA1324B75D* __this, const RuntimeMethod* method) 
+// System.Void deathtext::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void deathtext_Update_m8C13326589E719B42B402C56030DFD3EECBAF250 (deathtext_tB42F50478B7563216D4049C8B17B2ADA1324B75D* __this, const RuntimeMethod* method) 
 {
 	{
 		// StartCoroutine(SelfDestruct());

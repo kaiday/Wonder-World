@@ -5,7 +5,7 @@ using UnityEngine;
 public class deathtext : MonoBehaviour
 {
     [SerializeField] private float timer = 2f;
-    void Start()
+    void Update()
     {
         StartCoroutine(SelfDestruct());
     }

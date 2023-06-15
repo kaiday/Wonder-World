@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
+    private Vector2 checkPoint;
     private Rigidbody2D rb;
     private Animator anim;
 
@@ -12,6 +13,7 @@ public class PlayerLife : MonoBehaviour
 
     private void Start()
     {
+        checkPoint = transform.position;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
@@ -31,7 +33,7 @@ public class PlayerLife : MonoBehaviour
         anim.SetTrigger("death");
     }
 
-    private void RestartLevel()
+    private void Respawn()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
