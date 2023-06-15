@@ -39966,12 +39966,14 @@ struct Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74  : public MonoBehaviour_
 // PlayerLife
 struct PlayerLife_t148880044E384DF6D482766356838134F900C2E3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// UnityEngine.Vector2 PlayerLife::checkPoint
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___checkPoint_4;
 	// UnityEngine.Rigidbody2D PlayerLife::rb
-	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___rb_4;
+	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___rb_5;
 	// UnityEngine.Animator PlayerLife::anim
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___anim_5;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___anim_6;
 	// UnityEngine.AudioSource PlayerLife::deathSoundEffect
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___deathSoundEffect_6;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___deathSoundEffect_7;
 };
 
 // PlayerMovement

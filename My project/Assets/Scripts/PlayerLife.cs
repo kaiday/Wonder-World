@@ -33,7 +33,7 @@ public class PlayerLife : MonoBehaviour
         anim.SetTrigger("death");
     }
 
-    private void Respawn()
+    private void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
