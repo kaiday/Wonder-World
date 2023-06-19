@@ -12,16 +12,11 @@ public class CharacterManager : MonoBehaviour
     public Text nameText;
     public SpriteRenderer artworkSprite;
 
-
-
-
     [SerializeField]
     SelectedCharacterScript SelectedCharacter;
 
     void Start()
     {
-        Vector2 beginPos = new Vector2(5, -1);
-        this.GetComponent<Transform>().position = beginPos;
         updateCharacter();
     }
 
