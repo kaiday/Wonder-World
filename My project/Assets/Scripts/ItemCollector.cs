@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int apples = 0;
+    public int apples = 0;
     public bool secretCollected;
 
     [SerializeField] private Text applesText;
