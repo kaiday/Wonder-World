@@ -67,6 +67,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripts\Minigame LVL1\WordGenerator.cs" />
+     <Compile Include="Assets\Scripts\ButtonManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -75,13 +76,18 @@
      <Compile Include="Assets\Scripts\headcheck.cs" />
      <Compile Include="Assets\Scripts\EnableCursor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\QRShowcase.cs" />
      <Compile Include="Assets\Scripts\MiniGameLV3\Tile.cs" />
+     <Compile Include="Assets\Scripts\ButtonNumber.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\CanvasManagement.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\Scripts\DataPersistance\Data\GameData.cs" />
      <Compile Include="Assets\Scripts\LVL 4 secret\Button.cs" />
+     <Compile Include="Assets\Scripts\UI_Controller.cs" />
      <Compile Include="Assets\Scripts\QuizGame(LVL4)\QuestionAndAnswer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
@@ -89,11 +95,13 @@
      <Compile Include="Assets\Scripts\PlayerLife.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Scripts\DataPersistance\DataPersistenceManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\CharacterManager.cs" />
      <Compile Include="Assets\Scripts\Minigame LVL1\wordInput.cs" />
      <Compile Include="Assets\Scripts\WordScrambleController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Scripts\SceneManagement.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Scripts\CursorLock.cs" />
      <Compile Include="Assets\Scripts\Showcase.cs" />
@@ -275,6 +283,7 @@
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Merchant Ship\Sprites\Ship\Destroyed" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Shooter Traps\Sprites\Totems\Wood Spike\Destroyed" />
      <Folder Include="Assets\Pixel Adventure 1\Assets\Traps\Saw\title\title" />
+     <Folder Include="Assets\AdditionAsset\QuizImage" />
      <Folder Include="Assets\Pixel Adventure 1\Assets\Items" />
      <None Include="Assets\CasualGameBGM05\ReadMe.txt" />
      <Folder Include="Assets\Pixel Adventure 2\Assets\Enemies\Skull" />
@@ -429,6 +438,7 @@
      <Folder Include="Assets\Pixel Adventure 1\Assets\Items\Boxes\Box1" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Shooter Traps\Sprites\Totems\Head 2\Destroyed" />
      <Folder Include="Assets\Pixel Adventure 2\Assets\Enemies\Snail" />
+     <Folder Include="Assets\Scripts\DataPersistance\Data" />
      <Folder Include="Assets\Prefabs\Animal" />
      <Folder Include="Assets\Pixel Adventure 1\Assets\Traps\Spikes\title" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Captain Clown Nose\Sprites\Captain Clown Nose\Captain Clown Nose without Sword\04-Fall" />
@@ -439,6 +449,7 @@
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Pirate Treasure\Sprites\Small Maps\Small Map 3" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\The Crusty Crew\Sprites\Fierce Tooth\09-Dead Hit" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Shooter Traps\Sprites\Totems\Head 2\Hit 1" />
+     <Folder Include="Assets\AdditionAsset\Anh boc phot )))" />
      <Folder Include="Assets\EckTechGames\AutoSave\Scenes" />
      <Folder Include="Assets\Pixel Adventure 1\Assets\Items\Boxes\Box2" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Merchant Ship\Sprites\Water\Water\Bottom" />
@@ -472,6 +483,7 @@
      <Folder Include="Assets\Pixel Adventure 2\Assets\Enemies\Ghost\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Pixel Adventure 2\Assets\Enemies\Turtle" />
+     <Folder Include="Assets\AdditionAsset\MenuImages" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Shooter Traps\Sprites\Totems\Head 1\Attack 2" />
      <Folder Include="Assets\Medals\Retina\Silver" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Shooter Traps\Sprites\Cannon\Cannon Destroyed" />
@@ -569,6 +581,7 @@
      <Folder Include="Assets\Pixel Adventure 2" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Wood and Paper UI\Sprites\Small Text\Small Icons" />
      <Folder Include="Assets\AdditionAsset\Treasure Hunters\Shooter Traps\Sprites\Cannon\Cannon Ball Explosion" />
+     <Folder Include="Assets\Scripts\DataPersistance" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Unity\2021.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
