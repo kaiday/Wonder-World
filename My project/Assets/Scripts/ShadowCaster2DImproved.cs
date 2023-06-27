@@ -59,6 +59,7 @@ public class ShadowCaster2DImproved : MonoBehaviour
 	}
 }
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(ShadowCaster2DImproved))]
 public class ShadowCaster2DTileMapEditor : Editor
 {
@@ -82,3 +83,4 @@ public class ShadowCaster2DTileMapEditor : Editor
 	}
 
 }
+#endif
