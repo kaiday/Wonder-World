@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ItemCollector : MonoBehaviour
+public class ItemCollector : MonoBehaviour, IDataPersistence
 {
     public int apples = 0;
     public bool secretCollected;
@@ -31,5 +31,15 @@ public class ItemCollector : MonoBehaviour
             secretSFX.Play();
             secretText.text = "Secret has been found!";
         }
+    }
+
+    public void LoadData(GameData data)
+    {
+        this.apples = data.appleCollected;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.appleCollected = this.apples;
     }
 }
