@@ -5,18 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
-    public static void LoadScene(int sceneIndex)
+    public static void LoadScene(string sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
     }
 
     public static void Restart()
     {
-        LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public static void NextLevel()
     {
-        LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

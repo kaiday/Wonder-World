@@ -7,7 +7,7 @@ public class UI_Controller : MonoBehaviour
 {
     public void Play()
     {
-        SceneManagement.LoadScene(1);
+        SceneManager.LoadScene(1);
     }
     public void RestartLevel()
     {
@@ -21,6 +21,6 @@ public class UI_Controller : MonoBehaviour
 
     public void LoadScene(int sceneIndex)
     {
-        SceneManagement.LoadScene(sceneIndex);
+        SceneManager.LoadScene(sceneIndex);
     }
 }

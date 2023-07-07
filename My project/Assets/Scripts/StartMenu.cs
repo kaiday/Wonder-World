@@ -22,6 +22,11 @@ public class StartMenu : MonoBehaviour
         charr.SetActive(false);
         levelSelect.transform.DOMoveY(0f, 1.5f, false);
     }
+
+    public void learnAudio()
+    {
+        
+    }
     
     public void goBack()
     {
