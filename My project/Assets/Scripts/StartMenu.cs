@@ -9,6 +9,7 @@ public class StartMenu : MonoBehaviour
 {
     public Canvas start;
     public Canvas levelSelect;
+    public Canvas audioSelect;
     public GameObject charr;
     
     private void Start()
@@ -23,19 +24,34 @@ public class StartMenu : MonoBehaviour
         levelSelect.transform.DOMoveY(0f, 1.5f, false);
     }
 
-    public void learnAudio()
+    public void audSelect()
     {
-        
+        start.enabled = false;
+        charr.SetActive(false);
+        audioSelect.transform.DOMoveY(0f, 1.5f, false);
     }
-    
+
     public void goBack()
     {
         StartCoroutine(goback());
+    }
+    
+    public void audioBack()
+    {
+        StartCoroutine(audioback());
     }
 
     IEnumerator goback()
     {
         levelSelect.transform.DOMoveY(11f, 1.5f, false);
+        yield return new WaitForSeconds(1f);
+        start.enabled = true;
+        charr.SetActive(true);
+    }
+    
+    IEnumerator audioback()
+    {
+        audioSelect.transform.DOMoveY(11f, 1.5f, false);
         yield return new WaitForSeconds(1f);
         start.enabled = true;
         charr.SetActive(true);

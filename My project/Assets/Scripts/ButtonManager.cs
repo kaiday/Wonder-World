@@ -35,6 +35,14 @@ public class ButtonManager : MonoBehaviour
                 break;
             case 9: SceneManager.LoadScene("Level secret");
                 break;
+            case 10: SceneManager.LoadScene("AnimalAudio");
+                break;
+            case 11: SceneManager.LoadScene("ItemAudio");
+                break;
+            case 12: SceneManager.LoadScene("FruitAudio");
+                break;
+            case 13: SceneManager.LoadScene("MiscAudio");
+                break;
         }
     }
 }
