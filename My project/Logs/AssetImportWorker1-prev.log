@@ -15,7 +15,7 @@ F:/SSG_PROJECT/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55684
+64262
 Successfully changed project path to: F:/SSG_PROJECT/My project
 F:/SSG_PROJECT/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/SSG_PROJECT/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11252] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 1232059557 [EditorId] 1232059557 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26792] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3950146315 [EditorId] 3950146315 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11252] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 1232059557 [EditorId] 1232059557 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26792] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3950146315 [EditorId] 3950146315 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 134.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 185.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path F:/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'F:/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'F:/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001065 seconds.
+Registered in 0.001022 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 141.99 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 142.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
+- Completed reload, in  0.644 seconds
 Domain Reload Profiling:
-	ReloadAssembly (613ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (645ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (457ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (293ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (326ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (142ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003518 seconds.
+Registered in 0.003872 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 139.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 160.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.144 seconds
+- Completed reload, in  1.359 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1144ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (956ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1168ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (527ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (658ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5858.
-Memory consumption went from 220.7 MB to 219.9 MB.
-Total: 3.871400 ms (FindLiveObjects: 0.552800 ms CreateObjectMapping: 0.275000 ms MarkObjects: 2.748900 ms  DeleteObjects: 0.293500 ms)
+Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5857.
+Memory consumption went from 220.6 MB to 219.9 MB.
+Total: 4.666300 ms (FindLiveObjects: 0.494800 ms CreateObjectMapping: 0.256500 ms MarkObjects: 3.471700 ms  DeleteObjects: 0.441600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,7 +164,231 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 50243.240072 seconds.
-  path: Assets/Scenes/Audio Listen/FruitAudio.unity
-  artifactKey: Guid(a1d4ef5ffad6053408984f6e8fc8148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/FruitAudio.unity using Guid(a1d4ef5ffad6053408984f6e8fc8148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e72bfc3adb322ba4dd4163890db2a1') in 0.011126 seconds 
+  Time since last request: 59873.128055 seconds.
+  path: Assets/Scenes/Audio Listen/AnimalAudio.unity
+  artifactKey: Guid(248f16e9ef0bde341abc9a743dd70dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/AnimalAudio.unity using Guid(248f16e9ef0bde341abc9a743dd70dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7500aaa3770c3d3a4c8d1305db12730') in 0.014022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Audio Listen/grad.png
+  artifactKey: Guid(df6fddb4fdc0c36469826267176b0bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/grad.png using Guid(df6fddb4fdc0c36469826267176b0bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31efcdcc60546f9d71b86ec2736369c6') in 0.335408 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004929 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (980ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5867.
+Memory consumption went from 212.3 MB to 211.6 MB.
+Total: 4.227000 ms (FindLiveObjects: 0.594400 ms CreateObjectMapping: 0.228600 ms MarkObjects: 3.022500 ms  DeleteObjects: 0.380000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150.459858 seconds.
+  path: Assets/Scenes/Audio Listen/Animal Audio/bee.mp3
+  artifactKey: Guid(a204f83df723d0c45884f224f174dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Animal Audio/bee.mp3 using Guid(a204f83df723d0c45884f224f174dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd1ef506d75f70cbad51edf5d9f3a02') in 0.109021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/Audio Listen/Animal Audio/chicken.mp3
+  artifactKey: Guid(ac286690868bd7c4498a5eb0653d97e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Animal Audio/chicken.mp3 using Guid(ac286690868bd7c4498a5eb0653d97e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ee2f8942c8057a392b1ecd279f999c') in 0.006144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/Audio Listen/Animal Audio/pig.mp3
+  artifactKey: Guid(a75a8dfc901e0224693ae2ae7706b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Animal Audio/pig.mp3 using Guid(a75a8dfc901e0224693ae2ae7706b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f712799f9eee8ed40f1230b3e253a4') in 0.008741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Scenes/Audio Listen/Animal Audio/cow.mp3
+  artifactKey: Guid(23aa97c9c413cb4478b65d4dba36f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Animal Audio/cow.mp3 using Guid(23aa97c9c413cb4478b65d4dba36f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1017cc1ac227535020c4dbb4a47c067') in 0.006051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/Audio Listen/Animal Audio/bird.mp3
+  artifactKey: Guid(a9d602de18b79324689bffffaf186ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Animal Audio/bird.mp3 using Guid(a9d602de18b79324689bffffaf186ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4453e3d60a5f3ba8c7840299db17aac9') in 0.007979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Audio Listen/Animal Audio/duck.mp3
+  artifactKey: Guid(2a8e4be0dbddaa841a07e9639d37cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Animal Audio/duck.mp3 using Guid(2a8e4be0dbddaa841a07e9639d37cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a518dfdd49dee1a525d9f105eca535') in 0.006417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.706561 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/apron.mp3
+  artifactKey: Guid(3354dc6c98fba5c479c426d6c8850615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/apron.mp3 using Guid(3354dc6c98fba5c479c426d6c8850615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b27e73d890eb487452e1a2f1a6f1bf') in 0.006746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/knife.mp3
+  artifactKey: Guid(9f30bf4bf7ba30f4ab6819bf404cc4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/knife.mp3 using Guid(9f30bf4bf7ba30f4ab6819bf404cc4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f607776678ed8cd9a51e29127a78e1a') in 0.005453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/mixer.mp3
+  artifactKey: Guid(23d5dd221299d5541bd6fe79bfa29d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/mixer.mp3 using Guid(23d5dd221299d5541bd6fe79bfa29d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad00b63d19abb5756bdf139bd93e81f') in 0.006708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/glass.jpg
+  artifactKey: Guid(659c6b4132b965a45ace83706a30035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/glass.jpg using Guid(659c6b4132b965a45ace83706a30035f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10eeee8306ed94e1397b70698f6a5e6') in 0.046554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/chopstick.mp3
+  artifactKey: Guid(693a52ebae59c0a4884988b516f0f82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/chopstick.mp3 using Guid(693a52ebae59c0a4884988b516f0f82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b70fbd667a02532ca435ac145aec34f') in 0.007962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/mixer.jpg
+  artifactKey: Guid(6c88bda9bbb82f247be3298535d1cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/mixer.jpg using Guid(6c88bda9bbb82f247be3298535d1cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8961a41820cba025eaf497564819dbcd') in 0.054814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/plate.jpg
+  artifactKey: Guid(25da4d645d5f7714a887f72707f805c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/plate.jpg using Guid(25da4d645d5f7714a887f72707f805c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd2d2edccdacd7fe4caa84184d08966') in 0.088862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/knife.jpg
+  artifactKey: Guid(eaf6de1fc0fc2f449bf045aa269af32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/knife.jpg using Guid(eaf6de1fc0fc2f449bf045aa269af32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d11: failed to create staging 2D texture w=2000 h=2000 d3dfmt=28 [8007000e]
+ -> (artifact id: '1c4649530644c9e5cdc6cb98c43d45b0') in 0.154002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/stick.jpg
+  artifactKey: Guid(282c5783ef4e0b943949104bccb36798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/stick.jpg using Guid(282c5783ef4e0b943949104bccb36798) Importer(815301076,1909f56bfc062723c751e8b465ee728b) D3D11: Failed to create RenderTexture (1200 x 1200 fmt 27 aa 1), error 0x8007000e
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,int)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\GfxDevice\d3d11\RenderTextureD3D11.cpp line 210]
+
+d3d11: failed to create 2D texture id=164 width=1200 height=1200 mips=1 dxgifmt=28 [D3D error was 8007000e]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\GfxDevice\d3d11\TexturesD3D11.cpp line 922]
+
+d3d11: failed to create 2D texture shader resource view id=164 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\GfxDevice\d3d11\TexturesD3D11.cpp line 721]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Internal_Create (UnityEngine.Texture2D,int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.TextureCreationFlags,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,int,bool,intptr)
+UnityEngine.Texture2D:.ctor (int,int,UnityEngine.TextureFormat,bool)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\GfxDevice\d3d11\TexturesD3D11.cpp line 1212]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Texture2D:Apply (bool,bool)
+UnityEngine.Texture2D:Apply ()
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Runtime\GfxDevice\d3d11\TexturesD3D11.cpp line 1212]
+
+ -> (artifact id: 'dd1c88a5d79fe16eb6ae28da11a70b48') in 0.062186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/glass.mp3
+  artifactKey: Guid(4621fdfe7e3f1f9429b1eab8acdb92fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/glass.mp3 using Guid(4621fdfe7e3f1f9429b1eab8acdb92fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f52c7f4e58702ef15db0ad40b14f519') in 0.004983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Audio Listen/Misc Audio/spoon.mp3
+  artifactKey: Guid(164a606062d436b4bb4351ce43a08aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Audio Listen/Misc Audio/spoon.mp3 using Guid(164a606062d436b4bb4351ce43a08aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2494afd8a8afea7eb0b2d78b9e412e6c') in 0.004760 seconds 
