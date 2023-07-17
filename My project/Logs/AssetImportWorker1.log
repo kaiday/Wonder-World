@@ -15,7 +15,7 @@ F:/SSG_PROJECT/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63683
+50081
 Successfully changed project path to: F:/SSG_PROJECT/My project
 F:/SSG_PROJECT/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/SSG_PROJECT/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15524] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 1192575011 [EditorId] 1192575011 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23720] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3439037173 [EditorId] 3439037173 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15524] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 1192575011 [EditorId] 1192575011 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23720] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3439037173 [EditorId] 3439037173 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9JQ9CA8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 147.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 144.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path F:/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,1406 +67,300 @@ Initialize mono
 Mono path[0] = 'F:/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'F:/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001082 seconds.
+Registered in 0.001254 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 129.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 143.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.563 seconds
+- Completed reload, in  0.640 seconds
 Domain Reload Profiling:
-	ReloadAssembly (564ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (640ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (431ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (102ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (311ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
+				RefreshPlugins (144ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003902 seconds.
+Registered in 0.005511 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 134.85 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 138.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
+- Completed reload, in  1.310 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1109ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (517ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5858.
-Memory consumption went from 220.7 MB to 219.9 MB.
-Total: 4.109000 ms (FindLiveObjects: 0.523800 ms CreateObjectMapping: 0.369000 ms MarkObjects: 2.849100 ms  DeleteObjects: 0.366100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1750.239708 seconds.
-  path: Assets/AdditionAsset/TopDownHouse_SmallItems 1.png
-  artifactKey: Guid(573abc5226f303f4dbfb5a842478c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/TopDownHouse_SmallItems 1.png using Guid(573abc5226f303f4dbfb5a842478c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce809308e9fc58073fcced3f0ba3e7f') in 0.333552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Visibility_Tool@2x.png
-  artifactKey: Guid(ef9977ed07c438845a52c577f4ffcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Visibility_Tool@2x.png using Guid(ef9977ed07c438845a52c577f4ffcc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97323cf51765ab0d17beec7ddcd4432d') in 0.016066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/AdditionAsset/QuizImage/Unity_OmzRXfjB63.jpg
-  artifactKey: Guid(c9243411aae9eac408e1bbc27a2d4d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/QuizImage/Unity_OmzRXfjB63.jpg using Guid(c9243411aae9eac408e1bbc27a2d4d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7121b31f9ce6dbe65f72968db47c329') in 0.029635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@3x.png
-  artifactKey: Guid(89930da27dfbbc64ba1f3baf0ae416bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@3x.png using Guid(89930da27dfbbc64ba1f3baf0ae416bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0295cd2be1a1e81ad368aa11180ad6') in 0.009941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AdditionAsset/MenuImages/Unity_wYNbkJLW1z.jpg
-  artifactKey: Guid(4d9c30f077a2e6543aecb8e94949cd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/MenuImages/Unity_wYNbkJLW1z.jpg using Guid(4d9c30f077a2e6543aecb8e94949cd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8c1658e223972f00bd3198f6d2ea80') in 0.022553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded.png
-  artifactKey: Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded.png using Guid(a20f7223e2252fc4d813fc92d0f3a614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e287c17ec8c73aea65cacfd8473d8550') in 0.007896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@2x.png
-  artifactKey: Guid(f3940f64802892746b2ec336d3b0c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@2x.png using Guid(f3940f64802892746b2ec336d3b0c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b877c8b079dbf25a80416fca4a22346') in 0.012307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/FreePixelFood/Sprite/Food.png
-  artifactKey: Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreePixelFood/Sprite/Food.png using Guid(142ff8784e552734f9d6a895491d0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9799f9c0228b0ffb6b4be7ae96b29ef') in 0.136774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@2x.png
-  artifactKey: Guid(45c995b76b893fd4b9e8d3e0f9f6463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@2x.png using Guid(45c995b76b893fd4b9e8d3e0f9f6463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2905631ccd17554bce8d175370ebe10b') in 0.008062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AdditionAsset/MenuImages/Unity_FdwGAMSWC8.jpg
-  artifactKey: Guid(7a568f39ae7c4254785ba4f4b73249ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/MenuImages/Unity_FdwGAMSWC8.jpg using Guid(7a568f39ae7c4254785ba4f4b73249ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7503afdf61ba18bc6dd13ec2e9a53e70') in 0.021071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AdditionAsset/MenuImages/Unity_p6Vma2x6tu.jpg
-  artifactKey: Guid(30aab26e2db5800469922d792471b933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/MenuImages/Unity_p6Vma2x6tu.jpg using Guid(30aab26e2db5800469922d792471b933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1049ff06d5fe7c989d8c48caa381b95d') in 0.017596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AdditionAsset/QuizImage/Unity_1SnY9FWxnY.jpg
-  artifactKey: Guid(78b84d1dbe392f840808911b13426afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/QuizImage/Unity_1SnY9FWxnY.jpg using Guid(78b84d1dbe392f840808911b13426afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16734561f54aaa294c715656588585f') in 0.018770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FreePixelFood/Sprite/Food/Turnip.png
-  artifactKey: Guid(f59bbc404563db4458cc85e8721c052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreePixelFood/Sprite/Food/Turnip.png using Guid(f59bbc404563db4458cc85e8721c052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d077e904be11b427a41ad31f48068f') in 0.006069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/MenuImages/Unity_s0zrJ1yHwg.jpg
-  artifactKey: Guid(39e4dd51569831d4fa860f8b8c51fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/MenuImages/Unity_s0zrJ1yHwg.jpg using Guid(39e4dd51569831d4fa860f8b8c51fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3984773579ba2cb01602461b31565f0') in 0.016085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AdditionAsset/TopDownHouse_SmallItems.png
-  artifactKey: Guid(7eeab2d27c765fd4c8b0e1da54c08f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/TopDownHouse_SmallItems.png using Guid(7eeab2d27c765fd4c8b0e1da54c08f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a86f03d50a9126e3ee02f2b11a14517') in 0.078583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.866543 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Background/BG Image.png
-  artifactKey: Guid(2452bc94232bedb4aa659aae2e605828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Background/BG Image.png using Guid(2452bc94232bedb4aa659aae2e605828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185adc323ef4326c92f10bc35cc2220e') in 0.195702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/AdditionAsset/GUIedit.png
-  artifactKey: Guid(2eefe59c6b8167f4f8661f04065f506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/GUIedit.png using Guid(2eefe59c6b8167f4f8661f04065f506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1491e0da2a6bfa6977c28e595691e5') in 0.240205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AdditionAsset/Anh boc phot )))/z4466246008631_af436d7dc6704a7164517a6b3cc733ad.jpg
-  artifactKey: Guid(cd7c1f56c4d69a945b778aefd50440ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Anh boc phot )))/z4466246008631_af436d7dc6704a7164517a6b3cc733ad.jpg using Guid(cd7c1f56c4d69a945b778aefd50440ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fe017444c48fd11da6f867fa3d6bab') in 0.023525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Items/EmojisObjects.png
-  artifactKey: Guid(013b8d86aa040c54b867d541cecb03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Items/EmojisObjects.png using Guid(013b8d86aa040c54b867d541cecb03b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4094e1b2b16caeff1116e6cf7072ea56') in 0.236434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Dungeon/Dungeon Tile Set.png
-  artifactKey: Guid(669b3f67e71451047a23d1201e412ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Dungeon/Dungeon Tile Set.png using Guid(669b3f67e71451047a23d1201e412ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bda0bdfbfcf399260fbc2a8e81f68a') in 0.154658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png
-  artifactKey: Guid(167df1aa91ba5c14f90d90619a4809da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Terrain/Terrain (32x32).png using Guid(167df1aa91ba5c14f90d90619a4809da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9854c16a663e8662fbff0fd596371428') in 0.195399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Medals/Defaults/Bronze/rank062.png
-  artifactKey: Guid(3c342c2730db0dd4cbe9a3541da3072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Defaults/Bronze/rank062.png using Guid(3c342c2730db0dd4cbe9a3541da3072e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dfdbf069d17eca86e7de6dd1741479') in 0.007704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Medals/Retina/Gold/rank062.png
-  artifactKey: Guid(968c90702ea8fcd4a9b6cf07280f815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Retina/Gold/rank062.png using Guid(968c90702ea8fcd4a9b6cf07280f815f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4821e0e15a6be52af815fd2705b159') in 0.008173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Medals/Retina/Silver/rank062.png
-  artifactKey: Guid(4e81e31d98612014d819b10893723668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Retina/Silver/rank062.png using Guid(4e81e31d98612014d819b10893723668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992d35d4154c884392df8650007663b9') in 0.008184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AdditionAsset/Sands/desert-ruins.png
-  artifactKey: Guid(0f3bea87df3f66941b1fdf8c7d6cda52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Sands/desert-ruins.png using Guid(0f3bea87df3f66941b1fdf8c7d6cda52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd221bf31f2bb0de4040a53982378dd0d') in 0.087337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AdditionAsset/Fruit+.png
-  artifactKey: Guid(b535fe02aa4ee7e40b046f4e0c1bc6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Fruit+.png using Guid(b535fe02aa4ee7e40b046f4e0c1bc6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b04a5ae3ba47a9f1fb68d8b4909a24') in 0.236775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Medals/Retina/Black/rank062.png
-  artifactKey: Guid(74adcae78a80adf47b4854257217073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Retina/Black/rank062.png using Guid(74adcae78a80adf47b4854257217073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf055f8e15b717b9f2ade01c598bd0e4') in 0.007618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AdditionAsset/Anh boc phot )))/z4466245167184_8fbeff48a89224a7705900ad9ea26bfb.jpg
-  artifactKey: Guid(52758a668cdaba94eb0e98023de18703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Anh boc phot )))/z4466245167184_8fbeff48a89224a7705900ad9ea26bfb.jpg using Guid(52758a668cdaba94eb0e98023de18703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f072dc766246246db6f51e147f8b832') in 0.096378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 271.065771 seconds.
-  path: Assets/Scenes/Audio Listen/Item Audio/aquarium.mp3
-  artifactKey: Guid(3225133ad8225304d8b41ddfe0bc3891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Item Audio/aquarium.mp3 using Guid(3225133ad8225304d8b41ddfe0bc3891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fd161a9fa4e9a5f073e73e0ea543f7') in 0.107791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-47.wav
-  artifactKey: Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-47.wav using Guid(d46323e22e74e46baa241cbf48c85671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea0b38105ba4769ed630bc1e7c77994') in 0.009574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-38.wav
-  artifactKey: Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-38.wav using Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82202b0bc73695acc47105349b83627b') in 0.007428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CasualGameSounds/secret.mp3
-  artifactKey: Guid(0080aff2e71ae65408b1789d436d483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/secret.mp3 using Guid(0080aff2e71ae65408b1789d436d483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45333915fbed40f115665a64b783852b') in 0.007612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-19.wav
-  artifactKey: Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-19.wav using Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d324feb8171b7c5d29bd0bf2eca63de') in 0.007620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-30.wav
-  artifactKey: Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-30.wav using Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74f373af5685bcf4af542afd97a6ec0') in 0.006805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-24.wav
-  artifactKey: Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-24.wav using Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8f61cf2f85076b9d909a1958e96a87') in 0.006697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/Audio Listen/Item Audio/uklangu021.mp3
-  artifactKey: Guid(ec96d4c8b2c87a04c9cde742d26c126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Item Audio/uklangu021.mp3 using Guid(ec96d4c8b2c87a04c9cde742d26c126a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8454d8fa6cc54f33444f24badd650ca8') in 0.007212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-10.wav
-  artifactKey: Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-10.wav using Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dbe3934953609fd11073ceeb558b03') in 0.007240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-07.wav
-  artifactKey: Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-07.wav using Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc54fa53c40b53f3d5030d86f411b65') in 0.006254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-23.wav
-  artifactKey: Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-23.wav using Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a2f94d840ac5e5742bddc4038bab8e') in 0.006275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/Audio Listen/Item Audio/cup.mp3
-  artifactKey: Guid(7120999c276e5074693e3899244fe3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Item Audio/cup.mp3 using Guid(7120999c276e5074693e3899244fe3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63e9e5f6d5eed5e57d423fb92cf71e1') in 0.012125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-48.wav
-  artifactKey: Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-48.wav using Guid(7e26c9daf4c32483b9c2790e662d3f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79f5c804d5985372188db2458253aef') in 0.006343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Scenes/Audio Listen/Fruit Audio/Strawberry.mp3
-  artifactKey: Guid(e3c1c4b5dfd2a2f4d9bf614f12053d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Fruit Audio/Strawberry.mp3 using Guid(e3c1c4b5dfd2a2f4d9bf614f12053d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd51e070a0d25d32720f6ba117a0ae7') in 0.013017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-14.wav
-  artifactKey: Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-14.wav using Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bb26ffe8a08e1c9d1c3b3d6de0a797') in 0.008624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-31.wav
-  artifactKey: Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-31.wav using Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7d4c8e39771e1b796a387304d63b6a') in 0.008176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Scenes/Audio Listen/Item Audio/bowl.mp3
-  artifactKey: Guid(08724be1a4b9a5c4e8b01119e8c49e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Item Audio/bowl.mp3 using Guid(08724be1a4b9a5c4e8b01119e8c49e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2291b7159de2d36725e1f3010718fec1') in 0.006259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-03.wav
-  artifactKey: Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-03.wav using Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d54825c564dfeb98f8555dac581f94a') in 0.011059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-06.wav
-  artifactKey: Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-06.wav using Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a807b821de14d99599a0028596a4ed9e') in 0.006156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-50.wav
-  artifactKey: Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-50.wav using Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58435b57842a7cd633e6dfd29030c5de') in 0.010189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-22.wav
-  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e63be409a7a60effd0ee42402899b5') in 0.009103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-39.wav
-  artifactKey: Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-39.wav using Guid(3becec1909f194046945d85ac1077772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1499b13715106970eac97f669c7ddfcd') in 0.010448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/Audio Listen/Fruit Audio/blueberry.mp3
-  artifactKey: Guid(2c183c0704b9b3d4eae3df1c034d24e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Fruit Audio/blueberry.mp3 using Guid(2c183c0704b9b3d4eae3df1c034d24e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b1ae03cee2cec821ac0c1033b4df45') in 0.016467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-42.wav
-  artifactKey: Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-42.wav using Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28361473679628fe9738d33ab6699fdb') in 0.007352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scenes/Audio Listen/Item Audio/pan.mp3
-  artifactKey: Guid(396f1afa80f674f419618a82b289d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Item Audio/pan.mp3 using Guid(396f1afa80f674f419618a82b289d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf8809194643637a1f90a690b73ff37') in 0.005526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-46.wav
-  artifactKey: Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-46.wav using Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d775dad923fdb5c8f98b852ac90d00') in 0.006653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CasualGameBGM05/BGM_02.wav
-  artifactKey: Guid(90eae78e8ce85a849b5b0ca11b2de641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameBGM05/BGM_02.wav using Guid(90eae78e8ce85a849b5b0ca11b2de641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f147c46cfcb70057812b877b408528aa') in 0.007152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-26.wav
-  artifactKey: Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-26.wav using Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d37363003a0bf9198a083028910329c') in 0.008714 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/Audio Listen/Fruit Audio/pair.mp3
-  artifactKey: Guid(6270e4ebc819b734a8eee0256a885e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Fruit Audio/pair.mp3 using Guid(6270e4ebc819b734a8eee0256a885e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1877dab3cafa6d3a0dbeb350203845') in 0.009450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-35.wav
-  artifactKey: Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-35.wav using Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087a51bde424b240670c2c6e809c88b3') in 0.007388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-36.wav
-  artifactKey: Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-36.wav using Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f1309df90284722b29250f495634f1') in 0.007010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CasualGameBGM05/BGM_04.wav
-  artifactKey: Guid(1532c7e67c2d60c4c8780da14b7e8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameBGM05/BGM_04.wav using Guid(1532c7e67c2d60c4c8780da14b7e8fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e00a4b21e0cc9e971c96e1b4c75920b') in 0.006337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-09.wav
-  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42efa86ceb9346370817c9b534095126') in 0.008889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scenes/Audio Listen/Fruit Audio/Tomato.mp3
-  artifactKey: Guid(f65f4689154a4d44ebb8449e015ac9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Fruit Audio/Tomato.mp3 using Guid(f65f4689154a4d44ebb8449e015ac9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ea3075871f048573105d6738f7527a') in 0.006630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-43.wav
-  artifactKey: Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-43.wav using Guid(4b4dd7245f6104c8c8eb07ccf6b386ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44f8855cfe8073b348471d9c8a355c9') in 0.007295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-28.wav
-  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1544729167c3e07722afda57522b6667') in 0.006147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Scenes/Audio Listen/Fruit Audio/coconut.mp3
-  artifactKey: Guid(45550fdd3e2bb3645af00f6be89e63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Audio Listen/Fruit Audio/coconut.mp3 using Guid(45550fdd3e2bb3645af00f6be89e63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8a634a8fdd9e1720521eed5b7b2466') in 0.006362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-34.wav
-  artifactKey: Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-34.wav using Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d307a1e5121cf16af1c3c42ae22e4d6') in 0.005979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 127.632026 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@3x.png
-  artifactKey: Guid(ec23e33668eecff4aaec16f735dcc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@3x.png using Guid(ec23e33668eecff4aaec16f735dcc204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7239a2090e9b9e09eed7903b5b9d0f9') in 0.018069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Snail/Walk (38x24).png
-  artifactKey: Guid(505391a19bb05954ea44a8929a7104ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Snail/Walk (38x24).png using Guid(505391a19bb05954ea44a8929a7104ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac57c548e88a70d39fd06abbc8977dda') in 0.046437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@4x.png
-  artifactKey: Guid(216c53aef79eaaf40a1800cc5e542dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Tool@4x.png using Guid(216c53aef79eaaf40a1800cc5e542dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7205b4819c252e6720daf00bf20ea1') in 0.007876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FreePixelFood/Sprite/Food/Waffles.png
-  artifactKey: Guid(481361217e20600488dc50b0c21f0378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreePixelFood/Sprite/Food/Waffles.png using Guid(481361217e20600488dc50b0c21f0378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6062feff4e3b35df247d97ccfed7bee0') in 0.010212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.765598 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 1 (52x54).png
-  artifactKey: Guid(54aabc49583d77e4587c8ce5ed94edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall 1 (52x54).png using Guid(54aabc49583d77e4587c8ce5ed94edab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad6e95d266a5d675f6a3ef522c88487') in 0.026992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png
-  artifactKey: Guid(8123182af98fb8147a7d6e6bf458ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Top Hit (54x52).png using Guid(8123182af98fb8147a7d6e6bf458ba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797f853b0cdb01f24d3188d54b069cc6') in 0.018765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Skull/Idle 2 (52x54).png
-  artifactKey: Guid(ed57a13d678b6614fa329888af09bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Skull/Idle 2 (52x54).png using Guid(ed57a13d678b6614fa329888af09bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e57e9fb93c8ccecb37989c04421b606') in 0.025432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Medals/Retina/Bronze/rank054.png
-  artifactKey: Guid(50ccb5b12a860ce49b0dab14f8ce3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Retina/Bronze/rank054.png using Guid(50ccb5b12a860ce49b0dab14f8ce3e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7c71ae5b57082d1d284f2ea54f6dfe') in 0.009058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Medals/Defaults/Silver/rank054.png
-  artifactKey: Guid(6d6a9b6359b2f844cbfcf2e32b95a2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Defaults/Silver/rank054.png using Guid(6d6a9b6359b2f844cbfcf2e32b95a2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1e16a20bd97d6bb38b7ec256a0d6db') in 0.008292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png
-  artifactKey: Guid(680c4a3e214ba5b4d984cd56b1d49668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Left Hit (54x52).png using Guid(680c4a3e214ba5b4d984cd56b1d49668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740470937530058b3a6ea4581d7bafa9') in 0.012672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Medals/Retina/Gold/rank054.png
-  artifactKey: Guid(04f68da7e4922284fba33e26e4606c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Retina/Gold/rank054.png using Guid(04f68da7e4922284fba33e26e4606c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6c8692e7114b98a11cce1e6afac898') in 0.018009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png
-  artifactKey: Guid(75b1a2f7cb6173c4d826963a35f18512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Traps/Spike Head/Right Hit (54x52).png using Guid(75b1a2f7cb6173c4d826963a35f18512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f5216935779a34177d16bad36e2f07') in 0.024511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.173756 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Unfolding/01.png
-  artifactKey: Guid(182bbbc36a90fcd488f3deb414ca6ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Unfolding/01.png using Guid(182bbbc36a90fcd488f3deb414ca6ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f054c12a21e404323ed72c5d7d21aea') in 0.007656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Wind/1.png
-  artifactKey: Guid(40e77118cdb711f4a8e31dcd153be2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Wind/1.png using Guid(40e77118cdb711f4a8e31dcd153be2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af32fbc39287f78cb3779783fe0dac7') in 0.008193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Silver Coin/02.png
-  artifactKey: Guid(6a7539f7e9cc12940be8ced9ca24e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Silver Coin/02.png using Guid(6a7539f7e9cc12940be8ced9ca24e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40593c3583c294e2b9f3675cd96d61b') in 0.010292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png
-  artifactKey: Guid(64cbe7cc095414442b36d2b8b3dd09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Barrels and Bottles/01.png using Guid(64cbe7cc095414442b36d2b8b3dd09ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa800783be1d72cb870b3560457ab4f8') in 0.008910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Barrel/Hit/1.png
-  artifactKey: Guid(852032402b1084e48a03deed3728be11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Barrel/Hit/1.png using Guid(852032402b1084e48a03deed3728be11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510f68bd82dd83003aa560fa159abb6c') in 0.012473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/01.png
-  artifactKey: Guid(b14810d492522674cb5514f8fa576b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Small/01.png using Guid(b14810d492522674cb5514f8fa576b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55e61401621e0428473f120e2d0bfa7') in 0.007516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Folding/01.png
-  artifactKey: Guid(fbff33eac3d78944083d8b7fbe941302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Folding/01.png using Guid(fbff33eac3d78944083d8b7fbe941302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1fbcc9e4d29a4c4aacb7e613d62c95') in 0.010208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Barrel/Destroyed/1.png
-  artifactKey: Guid(4ac0331170cc82646bee1950cc60e355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Barrel/Destroyed/1.png using Guid(4ac0331170cc82646bee1950cc60e355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06baa40e510c5cce79936de56e5a40c1') in 0.007732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Pearl Destroyed/1.png
-  artifactKey: Guid(4d261244a031ceb4d8efb4e33bad0789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Pearl Destroyed/1.png using Guid(4d261244a031ceb4d8efb4e33bad0789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05faadf1a18de0e99c217fe0d78151c1') in 0.006811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/1.png
-  artifactKey: Guid(daab5ffc1f907e941afe334f76c66dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Paper/1.png using Guid(daab5ffc1f907e941afe334f76c66dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e013b140d4d391da2448a28be9ec642') in 0.010864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Attack 2/1.png
-  artifactKey: Guid(91f539893649182489edb678f9c7ea3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Attack 2/1.png using Guid(91f539893649182489edb678f9c7ea3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b85ac4b578224df712b8517f8c89a5') in 0.008491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Colors/1.png
-  artifactKey: Guid(8bfb7c0fb881cf44aa35c63018eddd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Life Bars/Colors/1.png using Guid(8bfb7c0fb881cf44aa35c63018eddd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614cd06a46d7541c0a71751b0f90fb81') in 0.011222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Wood Spike/Destroyed/1.png
-  artifactKey: Guid(d406717a51245964f8c37aa05481dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Wood Spike/Destroyed/1.png using Guid(d406717a51245964f8c37aa05481dda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23758134e70522b379caa41c6b6b5763') in 0.007818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/01.png
-  artifactKey: Guid(5e40e8deaf7d96c459894a0b1b5fa975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Chains/Big/01.png using Guid(5e40e8deaf7d96c459894a0b1b5fa975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2be25813b2095b505085ca179b8ba8') in 0.008776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Idle 2/1.png
-  artifactKey: Guid(3ac9583980745a342bfc5615aafd1059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Idle 2/1.png using Guid(3ac9583980745a342bfc5615aafd1059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba2f038dfa324f86c09018962895c9f') in 0.007423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/1.png
-  artifactKey: Guid(a87a9d5f07cbc9b469d1bce51085dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Ball Explosion/1.png using Guid(a87a9d5f07cbc9b469d1bce51085dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f94663e7350a2a4fa73b0f3bb378d8') in 0.007907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Idle/1.png
-  artifactKey: Guid(7229b800e7bce5f429815fd802525e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Idle/1.png using Guid(7229b800e7bce5f429815fd802525e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c20c47f92484e4546a7f53ec5d87620') in 0.010160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window Light/01.png
-  artifactKey: Guid(f61433c240553e248ad86c1ba546daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window Light/01.png using Guid(f61433c240553e248ad86c1ba546daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb6ac2bf6f74044218a56cf25fae44c') in 0.009319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 1/Attack 2/1.png
-  artifactKey: Guid(70290ca419470ae4cb2c3bcb3f165403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 1/Attack 2/1.png using Guid(70290ca419470ae4cb2c3bcb3f165403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a916afd4b56e22415e5ebefffa971ff6') in 0.015596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/1.png
-  artifactKey: Guid(b0d2182f8825f354d94a35bc201492a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Green Button/1.png using Guid(b0d2182f8825f354d94a35bc201492a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2d77f984a1360e1b7b5ac341cccedf') in 0.010159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 1/Hit 1/1.png
-  artifactKey: Guid(976f2b00d202a5d41a620c55b8259448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 1/Hit 1/1.png using Guid(976f2b00d202a5d41a620c55b8259448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b59e02f0ab26741240e0d0ecfda040d') in 0.008869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Destroyed/1.png
-  artifactKey: Guid(b4e54ac34170d424dac9bc275c4711fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Destroyed/1.png using Guid(b4e54ac34170d424dac9bc275c4711fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd038e6d29497cca3bb1fe39328a71d2b') in 0.007768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Box/Destroyed/1.png
-  artifactKey: Guid(fc2e0085f005c5f4391c9faea7d1e274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Box/Destroyed/1.png using Guid(fc2e0085f005c5f4391c9faea7d1e274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8ab4283f30172f194a214c8cd31c2e') in 0.010268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 3/02.png
-  artifactKey: Guid(0f067c20f1eb2a0449f36d8ddfd719de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 3/02.png using Guid(0f067c20f1eb2a0449f36d8ddfd719de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da81a3a00e04e1f61c7515324c01ea0f') in 0.007529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest Key/Idle/1.png
-  artifactKey: Guid(5e969802ee4903b4295ecec81f68153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest Key/Idle/1.png using Guid(5e969802ee4903b4295ecec81f68153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e585de632a926a0b138c587d460804') in 0.010797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest/Idle/1.png
-  artifactKey: Guid(0d9857df272a59148a966403d41e0b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest/Idle/1.png using Guid(0d9857df272a59148a966403d41e0b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3131f888b2406e7a188b092ef6a6fc0b') in 0.007352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Red Diamond/02.png
-  artifactKey: Guid(0b2d99156812b6b438498bd98b2377e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Red Diamond/02.png using Guid(0b2d99156812b6b438498bd98b2377e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31e4c4c95ca5fbaa1736280aa6b5ea') in 0.005928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Hit 2/1.png
-  artifactKey: Guid(82084e3b8afbec64088c91eb84789799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Hit 2/1.png using Guid(82084e3b8afbec64088c91eb84789799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57104b63bc106299b9f6b1af9405f116') in 0.007819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Destroyed/1.png
-  artifactKey: Guid(e09afd87c875b3b459e7c53021056504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Destroyed/1.png using Guid(e09afd87c875b3b459e7c53021056504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7544c40bfb91e9a1d468ca35d02d57f0') in 0.007129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Ship/Idle/1.png
-  artifactKey: Guid(65ae2c22f520bce4fad1438c5a89cc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Ship/Idle/1.png using Guid(65ae2c22f520bce4fad1438c5a89cc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d695cbbfa905514376db077426c44a5') in 0.009194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Ship/Hit/1.png
-  artifactKey: Guid(87208d57d2dd2d5489392dda4f037ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Ship/Hit/1.png using Guid(87208d57d2dd2d5489392dda4f037ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c707b673c1cfe7f000eac741d984e971') in 0.007309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/01.png
-  artifactKey: Guid(321d40f9562206d448241ce17f26f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Window/Window/01.png using Guid(321d40f9562206d448241ce17f26f6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499dc86f0b3eb2bc6751cfaf98bed592') in 0.007019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/02.png
-  artifactKey: Guid(ce6eb1ca5a4a044438ddfcffbf70a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/02.png using Guid(ce6eb1ca5a4a044438ddfcffbf70a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6592c1211dfe34ac8c5eb08bc3fa5e6d') in 0.015566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Fire/1.png
-  artifactKey: Guid(ccd8a1135631ac34e95323255f792365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Fire/1.png using Guid(ccd8a1135631ac34e95323255f792365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a0906d102df5e238f08ae26d89a1ba') in 0.009372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Box/Hit/1.png
-  artifactKey: Guid(b5d02ec2ba9dc244e9a3caebf931bbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Box/Hit/1.png using Guid(b5d02ec2ba9dc244e9a3caebf931bbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac172f6737836e4c3c817f263719c1a') in 0.007327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 1/Idle 1/1.png
-  artifactKey: Guid(54e7530c7353f04478e6204e48a375e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 1/Idle 1/1.png using Guid(54e7530c7353f04478e6204e48a375e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e331a7720f2ab0b6724ecc1346e2b659') in 0.009122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 2/02.png
-  artifactKey: Guid(35d830005ff8f094fa5326af059c3364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 2/02.png using Guid(35d830005ff8f094fa5326af059c3364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6dde0749e27eea5ce613c614c2a692') in 0.010401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Hit/1.png
-  artifactKey: Guid(6f00592f17e9f3f4387861448d7853b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Cannon/Cannon Hit/1.png using Guid(6f00592f17e9f3f4387861448d7853b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6238e370018cace7acaad706310de9') in 0.007624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Hit/1.png
-  artifactKey: Guid(7e168ec61b8055644846cae7f52b4717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Seashell Hit/1.png using Guid(7e168ec61b8055644846cae7f52b4717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b4960b38159ac63d628ce28583d8e9') in 0.007292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/02.png
-  artifactKey: Guid(05cc9d4bfb13d924b9549c87e83eebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/02.png using Guid(05cc9d4bfb13d924b9549c87e83eebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f07e7beabe0660421592029e36bb5') in 0.011870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/1.png
-  artifactKey: Guid(175c1b1769b6c5744a475ed762b5b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Yellow Button/1.png using Guid(175c1b1769b6c5744a475ed762b5b35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da25a239d9f01477f7c67c6e13c0fc7') in 0.008259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/White Bar/1.png
-  artifactKey: Guid(f78344866fe871d4897f85bea9e631da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Small Text/White Bar/1.png using Guid(f78344866fe871d4897f85bea9e631da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addc3780f8f0dde78d61b9d5c19259cc') in 0.008345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Transition to No Wind/1.png
-  artifactKey: Guid(dcc6d2bb7a132db46a3cb6b9975b12f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Ship/Sail/Transition to No Wind/1.png using Guid(dcc6d2bb7a132db46a3cb6b9975b12f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cc8a755f30bdf08d6d029f4ad09f29') in 0.010217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/1.png
-  artifactKey: Guid(c7febef77a3a5124ebc2d53228d8e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Small Banner/1.png using Guid(c7febef77a3a5124ebc2d53228d8e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53ff5cf974462a240488b725b6807e2') in 0.011184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/1.png
-  artifactKey: Guid(8863625d56dab7149b27e55fe743e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Big Banner/1.png using Guid(8863625d56dab7149b27e55fe743e9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c8574d170c8a3d0591a53a4f30793b') in 0.009052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Idle 1/1.png
-  artifactKey: Guid(a381c973a9a02094eb670f098882328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Idle 1/1.png using Guid(a381c973a9a02094eb670f098882328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b0e0719593b66e08a2ec776bd4dfdc') in 0.011593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest/Padlock/1.png
-  artifactKey: Guid(a12e2ae574ba3ab41bcfe54ead77d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest/Padlock/1.png using Guid(a12e2ae574ba3ab41bcfe54ead77d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4fb359a97343c7e70b5b2960fdb688') in 0.015705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/1.png
-  artifactKey: Guid(eed2c1af3a122574f967dd04824f7c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Wood and Paper UI/Sprites/Mobile Buttons/Mobile Buttons/1.png using Guid(eed2c1af3a122574f967dd04824f7c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5dbe5a6498fc4e9c850c9aeba80a9c') in 0.013857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Idle/01.png
-  artifactKey: Guid(31dd4d75712f99140824c7c62b4c3c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Big Map/Idle/01.png using Guid(31dd4d75712f99140824c7c62b4c3c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fbd2a6d470c642dbebafc575f76d57') in 0.010086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Hit 1/1.png
-  artifactKey: Guid(c46419e4d3a37764faa6176d6a2c6178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 3/Hit 1/1.png using Guid(c46419e4d3a37764faa6176d6a2c6178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cf9c747b4b6421d90af3b6be91d2f9') in 0.012734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Pearl Idle/1.png
-  artifactKey: Guid(4c2dff691fad66e41927697e90cc06a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Seashell/Pearl Idle/1.png using Guid(4c2dff691fad66e41927697e90cc06a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0742ce87b2fa3b66e859f189de595a') in 0.009525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 4/02.png
-  artifactKey: Guid(2f48168a584ae514cb69de8a21114f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Small Maps/Small Map 4/02.png using Guid(2f48168a584ae514cb69de8a21114f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2401a2e956aa2eb32b845b611636b5') in 0.007693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Water/Reflexes 2/1.png
-  artifactKey: Guid(7ba1057dca446704ca1f95d4222b1123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Water/Reflexes 2/1.png using Guid(7ba1057dca446704ca1f95d4222b1123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13815dcb499d1554584cde3b210f012') in 0.008612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/01.png
-  artifactKey: Guid(606d0c3835fe46441989447d57385457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Ship/Sprites/Decorations/Door/Closing/01.png using Guid(606d0c3835fe46441989447d57385457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd0e2ffcf8ae0051763dfafff510181') in 0.007835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest Key/Effect/1.png
-  artifactKey: Guid(7974308dc75d89b4b84caef9bf4b35f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Merchant Ship/Sprites/Chest Key/Effect/1.png using Guid(7974308dc75d89b4b84caef9bf4b35f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a8b87c85bd8cc9a7395568dfdd1a43') in 0.008902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Attack 1/1.png
-  artifactKey: Guid(6d354d4d1b518da46ad0ea3ee6c85ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Attack 1/1.png using Guid(6d354d4d1b518da46ad0ea3ee6c85ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a13875c3799fc18e273f793c3516a4d') in 0.007765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Destroyed/1.png
-  artifactKey: Guid(64cb6e2f289a8b34196d9d13c463712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Shooter Traps/Sprites/Totems/Head 2/Destroyed/1.png using Guid(64cb6e2f289a8b34196d9d13c463712d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd419a5748114d348ab5ec2662b15312') in 0.008946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.539141 seconds.
-  path: Assets/FreePixelFood/Sprite/Food/PieLemon.png
-  artifactKey: Guid(cc4c3524c7779d44dbcf4d432bbe9d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreePixelFood/Sprite/Food/PieLemon.png using Guid(cc4c3524c7779d44dbcf4d432bbe9d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584ac539bbbebae10e51469b1eadb40c') in 0.010027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.741347 seconds.
-  path: Assets/AdditionAsset/GUI Custom/dl.beatsnoop.com-jEmdycIDzu-removebg-preview(1).png
-  artifactKey: Guid(f7142a37727da6e4193fba0c799ef526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/GUI Custom/dl.beatsnoop.com-jEmdycIDzu-removebg-preview(1).png using Guid(f7142a37727da6e4193fba0c799ef526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace581a88c8c7b424e26e9e97d5abb42') in 0.020210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.653470 seconds.
-  path: Assets/AdditionAsset/z4387871448567_9fa068c8229c52f5d12bacfc8e09d071.jpg
-  artifactKey: Guid(505ec95b64d128943b99978ab0fc7e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/z4387871448567_9fa068c8229c52f5d12bacfc8e09d071.jpg using Guid(505ec95b64d128943b99978ab0fc7e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4e761dd28bb0f61a0dd6680075fb08') in 0.154081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.403968 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/01.png
-  artifactKey: Guid(f3b41b91ab38d09418f04baeceae6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Skull Effect/01.png using Guid(f3b41b91ab38d09418f04baeceae6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2124b4d52a649daa10c07acbfc73b0') in 0.020840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Silver Coin/01.png
-  artifactKey: Guid(7550ac23844614d479e9569df97d9f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Silver Coin/01.png using Guid(7550ac23844614d479e9569df97d9f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffaa3c132bdc5203003efe5f5d1a1b1') in 0.008174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/01.png
-  artifactKey: Guid(3e8b2ae602964f042b8e089d5585922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Gold Coin/01.png using Guid(3e8b2ae602964f042b8e089d5585922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a804538073112cc781043e8fdaa1a2') in 0.010476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Diamond Effect/01.png
-  artifactKey: Guid(a45e5b172edf5eb4a9972827347956de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Diamond Effect/01.png using Guid(a45e5b172edf5eb4a9972827347956de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d0cf1687995db079af18b52b0ad88f') in 0.010274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Green Diamond/01.png
-  artifactKey: Guid(88b39813fed11d844b4486e8851333e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Green Diamond/01.png using Guid(88b39813fed11d844b4486e8851333e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fdc970cbc0fba0dea82b0d3d06e3ff') in 0.012809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/01.png
-  artifactKey: Guid(63603c91c77f33647a82f426c489afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Red Potion/01.png using Guid(63603c91c77f33647a82f426c489afbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f720273cf303304f49045b385032b10') in 0.008169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/01.png
-  artifactKey: Guid(3ca0f88791692ab45b4b68a77b72cb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Pirate Treasure/Sprites/Potion Effect/01.png using Guid(3ca0f88791692ab45b4b68a77b72cb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b380c43713dcee284f48e2de4e4b0d6a') in 0.009800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.483040 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png
-  artifactKey: Guid(ad6edaec80054e54c8ac692fb7419c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Background/Additional Water.png using Guid(ad6edaec80054e54c8ac692fb7419c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8f5ff06ec471c70457f51633a3749a') in 0.010893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 01.png
-  artifactKey: Guid(348174ec3d96d904c92015a05f262a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 01.png using Guid(348174ec3d96d904c92015a05f262a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f6d63a45c15762e8f15cf62ba92c8c') in 0.015006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Fruits/Apple.png
-  artifactKey: Guid(1ddc9afd21fec77489b1248d18f31b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Fruits/Apple.png using Guid(1ddc9afd21fec77489b1248d18f31b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70618503b15b0d31662c97f1c6e40d7') in 0.068777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 02.png
-  artifactKey: Guid(a429912d9e7c07e45b41fdea34d99a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 02.png using Guid(a429912d9e7c07e45b41fdea34d99a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e971f7ba3a3e34b7b5f5049cc23dcc7') in 0.011744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 03.png
-  artifactKey: Guid(769f2518edd4d044493965e7c58aa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 03.png using Guid(769f2518edd4d044493965e7c58aa036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cddd044cddd07c9b8c95364e20ac00') in 0.009842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 03.png
-  artifactKey: Guid(82e4d98ae348f0443b5c1cd83a8e6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 03.png using Guid(82e4d98ae348f0443b5c1cd83a8e6d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef468936b2a06120aa251f2e0313390') in 0.007058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Regular 02.png
-  artifactKey: Guid(f47bc75edaaa2ca4c9c37efa8f3592b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/Palm Tree Island/Sprites/Back Palm Trees/Back Palm Tree Regular 02.png using Guid(f47bc75edaaa2ca4c9c37efa8f3592b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dce698e44cb2609d3cd3786cc024a29') in 0.009232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FreePixelFood/Sprite/Food/Apple.png
-  artifactKey: Guid(61d01e8616313344b978a6518fd86ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreePixelFood/Sprite/Food/Apple.png using Guid(61d01e8616313344b978a6518fd86ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5617f3c41be89c48875fdf6dce2d872') in 0.010403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 01.png
-  artifactKey: Guid(c1265cd7e66b925429bd0ecb79eb89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Fierce Tooth/11-Attack Effect/Attack Effect 01.png using Guid(c1265cd7e66b925429bd0ecb79eb89b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd9fdbc29725fe6db0b288858eaa654') in 0.007260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FreePixelFood/Sprite/Food/Beer.png
-  artifactKey: Guid(e0a7fb47c7111464f866363e7a3f47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreePixelFood/Sprite/Food/Beer.png using Guid(e0a7fb47c7111464f866363e7a3f47da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4302130a27ea4878737d8a7d33bd03a4') in 0.010823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Crabby/11-Attack Effect/Attack Effect 02.png
-  artifactKey: Guid(4fb9219c8d4dc0f429ceb72f4a3989a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Crabby/11-Attack Effect/Attack Effect 02.png using Guid(4fb9219c8d4dc0f429ceb72f4a3989a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5590022eb386c166851613fa0c9d2672') in 0.007240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 04.png
-  artifactKey: Guid(d23266692f6aaa14cb431904cc55746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 04.png using Guid(d23266692f6aaa14cb431904cc55746b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436e067d18dd65960c87e96314cdfc54') in 0.007345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Crabby/11-Attack Effect/Attack Effect 01.png
-  artifactKey: Guid(9978eb6457e0ff144a4e3558ca2260eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Crabby/11-Attack Effect/Attack Effect 01.png using Guid(9978eb6457e0ff144a4e3558ca2260eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb873716414f149d076f2df3fa39001e') in 0.006284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Appear (44x30).png
-  artifactKey: Guid(a26831e3796d4f6498e8400f4a01326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Ghost/Appear (44x30).png using Guid(a26831e3796d4f6498e8400f4a01326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850a4ac2373c5bafeb52d3dc4a244f11') in 0.011438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FreePixelFood/Sprite/Food/AppleWorm.png
-  artifactKey: Guid(8fa37c2c8b9bd654c96a4fae10f387a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreePixelFood/Sprite/Food/AppleWorm.png using Guid(8fa37c2c8b9bd654c96a4fae10f387a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1831ebce4cbea8326a62777fdfba63b') in 0.006760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png
-  artifactKey: Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Appearing (96x96).png using Guid(3421078018dc3934a8c1ab3b7bf89aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac98259ae96b3be80a719745ee8a817') in 0.018196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 02.png
-  artifactKey: Guid(b734dc0fcac8b764e9101026767ba445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Treasure Hunters/The Crusty Crew/Sprites/Pink Star/11-Attack Effect/Attack Effect 02.png using Guid(b734dc0fcac8b764e9101026767ba445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50594aaea1272eaa6670d8f05b8cb97a') in 0.006808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 361.565490 seconds.
-  path: Assets/AdditionAsset/Anh boc phot )))/z4350640642049_884e045b95017077d7c2ec88fbee3218.jpg
-  artifactKey: Guid(f1603d527a1bb534f82da7f0c88c7fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AdditionAsset/Anh boc phot )))/z4350640642049_884e045b95017077d7c2ec88fbee3218.jpg using Guid(f1603d527a1bb534f82da7f0c88c7fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7712609fad1cd20f0b5e6be425fe2da') in 0.322936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 186.392283 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png
-  artifactKey: Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Mask Dude/Wall Jump (32x32).png using Guid(9b7e8d8d6e9ac904dba7f59ba8b11835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b76fd9e41974adb80403a60fe0db4f') in 0.039544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png
-  artifactKey: Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Main Characters/Virtual Guy/Wall Jump (32x32).png using Guid(5a448cc07b6e09343924bf933b0cb70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bd64fcd2834a5769165aa9b89003bb') in 0.022475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.369035 seconds.
-  path: Assets/Medals/Defaults/Black/rank013.png
-  artifactKey: Guid(7b0770b6a8d781a438f5a0fee55a4a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medals/Defaults/Black/rank013.png using Guid(7b0770b6a8d781a438f5a0fee55a4a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09db6f47813badaec9b09f7e75563e7') in 0.008430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Mushroom/Run (32x32).png
-  artifactKey: Guid(4de760c38ab41314bbdcfb6943023452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Mushroom/Run (32x32).png using Guid(4de760c38ab41314bbdcfb6943023452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4699c5ddd282baee04b11072ab656f1') in 0.044129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Idle (38x34).png
-  artifactKey: Guid(419f1f3d5fcf8204389dd119348a56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Idle (38x34).png using Guid(419f1f3d5fcf8204389dd119348a56e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e8b650b81ce183037b26e3c68bc834') in 0.041880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Run (38x34).png
-  artifactKey: Guid(d1c070b3909c48f449d850c642705e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Run (38x34).png using Guid(d1c070b3909c48f449d850c642705e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1137a7c67b820fa8f594423bc5649c') in 0.031498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Background/Yellow.png
-  artifactKey: Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Background/Yellow.png using Guid(4d8c75a4d7dd2a0489270e1058d82128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd56bb3ae4d9305733e62bb9f1a1b193') in 0.041278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock2_Run (32x28).png
-  artifactKey: Guid(341181c8b3919d64b850c988c806bd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Rocks/Rock2_Run (32x28).png using Guid(341181c8b3919d64b850c988c806bd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf823c363904d43f32e9b199ba2123e') in 0.040069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Pixel Adventure 2/Assets/Enemies/Trunk/Run (64x32).png
-  artifactKey: Guid(daf3a34e52af9394d953d7b098baacc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 2/Assets/Enemies/Trunk/Run (64x32).png using Guid(daf3a34e52af9394d953d7b098baacc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9a98bfaa41674e3465d4a94f1968df') in 0.037552 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004904 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.374 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1375ms)
-		BeginReloadAssembly (330ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (184ms)
-		EndReloadAssembly (940ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (411ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5983.
-Memory consumption went from 213.0 MB to 212.3 MB.
-Total: 7.839800 ms (FindLiveObjects: 0.944700 ms CreateObjectMapping: 0.965800 ms MarkObjects: 5.537400 ms  DeleteObjects: 0.390500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004169 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1311ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (817ms)
-			LoadAssemblies (70ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1115ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (381ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (0.7 MB). Loaded Objects now: 5857.
+Memory consumption went from 220.6 MB to 219.9 MB.
+Total: 4.104100 ms (FindLiveObjects: 0.560800 ms CreateObjectMapping: 0.260300 ms MarkObjects: 2.990000 ms  DeleteObjects: 0.291800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004004 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.502 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1504ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1208ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (188ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5860.
+Memory consumption went from 208.2 MB to 207.5 MB.
+Total: 3.822000 ms (FindLiveObjects: 0.431600 ms CreateObjectMapping: 0.277600 ms MarkObjects: 2.725100 ms  DeleteObjects: 0.386200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003936 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (980ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (443ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5863.
+Memory consumption went from 208.2 MB to 207.5 MB.
+Total: 10.651400 ms (FindLiveObjects: 0.617400 ms CreateObjectMapping: 0.670800 ms MarkObjects: 3.668000 ms  DeleteObjects: 5.693300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (425.7 KB). Loaded Objects now: 5863.
+Memory consumption went from 102.8 MB to 102.4 MB.
+Total: 4.903700 ms (FindLiveObjects: 0.565800 ms CreateObjectMapping: 0.571500 ms MarkObjects: 3.387400 ms  DeleteObjects: 0.376500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (418.0 KB). Loaded Objects now: 5863.
+Memory consumption went from 101.4 MB to 101.0 MB.
+Total: 4.306100 ms (FindLiveObjects: 0.489800 ms CreateObjectMapping: 0.448200 ms MarkObjects: 2.916600 ms  DeleteObjects: 0.449800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5986.
-Memory consumption went from 213.0 MB to 212.4 MB.
-Total: 4.700700 ms (FindLiveObjects: 0.617600 ms CreateObjectMapping: 0.317100 ms MarkObjects: 3.331700 ms  DeleteObjects: 0.432400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003792 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1001ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (379ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5989.
-Memory consumption went from 213.1 MB to 212.4 MB.
-Total: 4.408600 ms (FindLiveObjects: 0.917500 ms CreateObjectMapping: 0.319800 ms MarkObjects: 2.831700 ms  DeleteObjects: 0.338500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003430 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1061ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (864ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (381ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5992.
-Memory consumption went from 213.1 MB to 212.4 MB.
-Total: 4.537900 ms (FindLiveObjects: 0.600700 ms CreateObjectMapping: 0.347300 ms MarkObjects: 3.117100 ms  DeleteObjects: 0.471700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004875 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\SSG_PROJECT\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.024 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1024ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (823ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (377ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5251 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5995.
-Memory consumption went from 213.1 MB to 212.4 MB.
-Total: 4.314800 ms (FindLiveObjects: 0.526200 ms CreateObjectMapping: 0.301800 ms MarkObjects: 3.153300 ms  DeleteObjects: 0.332300 ms)
+Unloading 34 unused Assets / (436.8 KB). Loaded Objects now: 5866.
+Memory consumption went from 206.1 MB to 205.7 MB.
+Total: 4.479700 ms (FindLiveObjects: 0.576900 ms CreateObjectMapping: 0.345900 ms MarkObjects: 3.116500 ms  DeleteObjects: 0.437300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
