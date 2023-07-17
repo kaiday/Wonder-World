@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31894011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.51, y: 4.25, z: 0}
+  m_LocalPosition: {x: -6.43, y: 3.97, z: 0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -380,8 +380,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: 250}
-  m_SizeDelta: {x: 428.39, y: 85.18}
+  m_AnchoredPosition: {x: 0.0000019073, y: 224.3}
+  m_SizeDelta: {x: 428.06, y: 85.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &250359454
 MonoBehaviour:
@@ -431,7 +431,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ANIMAL
+  m_Text: FRUIT
 --- !u!222 &250359456
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -498,7 +498,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 505ec95b64d128943b99978ab0fc7e55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df6fddb4fdc0c36469826267176b0bd9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -517,8 +517,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449899632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 1}
+  m_LocalPosition: {x: -0.0109, y: 0.0761, z: 0}
+  m_LocalScale: {x: 0.5834112, y: 0.5045141, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -627,7 +627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.05, y: -0.565}
+  m_AnchoredPosition: {x: 2.05, y: -0.96}
   m_SizeDelta: {x: 5.362, y: 1.1624}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511819038
@@ -650,8 +650,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Qu\u1EA3 chu\u1ED1i, n\xF3 m\xE0u v\xE0ng v\xE0 ch\u1EE9a nhi\u1EC1u ch\u1EA5t
-    dinh d\u01B0\u1EE1ng (v\xE0 potassium)"
+  m_text: "qu\u1EA3 cong d\xE0i, v\u1ECF m\xE0u v\xE0ng khi ch\xEDn, thu\u1ED9c lo\u1EA1i
+    c\xE2y nhi\u1EC7t \u0111\u1EDBi r\u1EA5t l\u1EDBn"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98c2d853e8b900b40a1e54da51c16ec4, type: 2}
   m_sharedMaterial: {fileID: -1663770179057657674, guid: 98c2d853e8b900b40a1e54da51c16ec4, type: 2}
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 1
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1.558763, w: -0.5977212}
+  m_margin: {x: 0, y: 0, z: -2.1352177, w: -0.5977212}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -857,7 +857,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.016666668, y: 0.016666668, z: 0.016666668}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1130489885}
   - {fileID: 1664477487}
@@ -1228,19 +1228,66 @@ MonoBehaviour:
   - itemImg: {fileID: -423165708, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
     name: Banana
     spelling: "/ba\xB7nan\xB7a/"
-    desc: "Qu\u1EA3 chu\u1ED1i, n\xF3 m\xE0u v\xE0ng v\xE0 ch\u1EE9a nhi\u1EC1u ch\u1EA5t
-      dinh d\u01B0\u1EE1ng (v\xE0 potassium)"
-    audio: {fileID: 8300000, guid: c5e2a73ad4706440f93bf05df0b465fe, type: 3}
+    desc: "qu\u1EA3 cong d\xE0i, v\u1ECF m\xE0u v\xE0ng khi ch\xEDn, thu\u1ED9c lo\u1EA1i
+      c\xE2y nhi\u1EC7t \u0111\u1EDBi r\u1EA5t l\u1EDBn"
+    audio: {fileID: 8300000, guid: 6f062e1d1f88c75438b17f64b625f58b, type: 3}
   - itemImg: {fileID: -1114324929, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
     name: Apple
     spelling: "/ap\xB7ple/"
-    desc: It is red
-    audio: {fileID: 8300000, guid: b6428d4edb06344ba829da4edd9967c1, type: 3}
+    desc: "m\u1ED9t lo\u1EA1i qu\u1EA3 tr\xF2n (th\u01B0\u1EDDng c\xF3 v\u1ECF m\xE0u
+      xanh ho\u1EB7c \u0111\u1ECF) c\xF3 th\u1EC3 \u0103n \u0111\u01B0\u1EE3c"
+    audio: {fileID: 8300000, guid: 2b419d6e8bdf73a499998656b6825e80, type: 3}
   - itemImg: {fileID: 1654312007, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
-    name: Chili
-    spelling: "/ap\xB7ple/"
-    desc: it i hot and spicy
-    audio: {fileID: 8300000, guid: dc6614beca09347ec9b258f12d154bdd, type: 3}
+    name: Chilli
+    spelling: "/\u02C8t\u0283\u026Al.i/"
+    desc: "v\u1ECF c\xF3 v\u1ECB cay c\u1EE7a m\u1ED9t lo\u1EA1i h\u1EA1t ti\xEAu,
+      th\u01B0\u1EDDng \u0111\u01B0\u1EE3c s\u1EA5y kh\xF4, t\xE1n th\xE0nh b\u1ED9t
+      v\xE0 d\xF9ng l\xE0m n\u01B0\u1EDBc s\u1ED1t, v.v."
+    audio: {fileID: 8300000, guid: 1ebf8fcf24c8a464182a63e9b5a90eee, type: 3}
+  - itemImg: {fileID: 1902399361, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
+    name: Grape
+    spelling: "/\u0261re\u026Ap/"
+    desc: "m\u1ED9t lo\u1EA1i qu\u1EA3 m\u1ECDng \u0103n \u0111\u01B0\u1EE3c c\xF3
+      v\u1ECF nh\u1EB5n m\xE0u xanh l\xE1 c\xE2y ho\u1EB7c \u0111en \u0111\u1EC3
+      l\xE0m r\u01B0\u1EE3u vang"
+    audio: {fileID: 8300000, guid: 59fb9a8c01ef0b84481e046a88b67c32, type: 3}
+  - itemImg: {fileID: -1023490032, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
+    name: Strawberry
+    spelling: "/\u02C8str\u0254\u02D0.b\u0259r.i/"
+    desc: "m\u1ED9t lo\u1EA1i tr\xE1i c\xE2y nh\u1ECF m\xE0u \u0111\u1ECF m\u1ECDng
+      n\u01B0\u1EDBc"
+    audio: {fileID: 8300000, guid: e3c1c4b5dfd2a2f4d9bf614f12053d6e, type: 3}
+  - itemImg: {fileID: -713417016, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
+    name: Tomato
+    spelling: "/t\u0259\u02C8me\u026A.t\u032Co\u028A/"
+    desc: "m\u1ED9t lo\u1EA1i tr\xE1i c\xE2y nhi\u1EC1u th\u1ECBt, m\u1ECDng n\u01B0\u1EDBc,
+      th\u01B0\u1EDDng c\xF3 m\xE0u \u0111\u1ECF, \u0111\u01B0\u1EE3c d\xF9ng trong
+      m\xF3n salad, n\u01B0\u1EDBc s\u1ED1t, v.v."
+    audio: {fileID: 8300000, guid: f65f4689154a4d44ebb8449e015ac9c1, type: 3}
+  - itemImg: {fileID: 511489349, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
+    name: Coconut
+    spelling: "/\u02C8ko\u028A.k\u0259.n\u028Ct/"
+    desc: "m\u1ED9t qu\u1EA3 l\u1EDBn m\xE0u n\xE2u ch\u1EE9a m\u1ED9t l\u1EDBp l\xF3t
+      r\u1EAFn m\xE0u tr\u1EAFng v\xE0 m\u1ED9t lo\u1EA1i n\u01B0\u1EDBc ng\u1ECDt
+      trong"
+    audio: {fileID: 8300000, guid: 45550fdd3e2bb3645af00f6be89e63b6, type: 3}
+  - itemImg: {fileID: 1424979064, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
+    name: Pear
+    spelling: /per/
+    desc: "m\u1ED9t lo\u1EA1i qu\u1EA3 thu\u1ED9c h\u1ECD t\xE1o, tr\xF2n \u1EDF
+      \u0111\xE1y v\xE0 thu h\u1EB9p v\u1EC1 ph\xEDa cu\u1ED1ng ho\u1EB7c \u0111\u1EC9nh"
+    audio: {fileID: 8300000, guid: 6270e4ebc819b734a8eee0256a885e5e, type: 3}
+  - itemImg: {fileID: -1356019090, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
+    name: Blueberry
+    spelling: "/\u02C8blu\u02D0\u02CCb\u0259r.i/"
+    desc: "m\u1ED9t lo\u1EA1i qu\u1EA3 m\u1ECDng \u0103n \u0111\u01B0\u1EE3c m\xE0u
+      xanh \u0111\u1EADm m\u1ECDc tr\xEAn b\u1EE5i c\xE2y"
+    audio: {fileID: 8300000, guid: 2c183c0704b9b3d4eae3df1c034d24e3, type: 3}
+  - itemImg: {fileID: 1072659609, guid: b535fe02aa4ee7e40b046f4e0c1bc6ac, type: 3}
+    name: Watermelon
+    spelling: "/\u02C8w\u0251\u02D0.t\u032C\u025A\u02CCmel.\u0259n/"
+    desc: "m\u1ED9t lo\u1EA1i d\u01B0a c\xF3 v\u1ECF xanh v\xE0 ru\u1ED9t \u0111\u1ECF"
+    audio: {fileID: 8300000, guid: d03ecd5b7434473418785ef622f57303, type: 3}
   source: {fileID: 1510528087}
   currentItem: 0
   currentAudio: {fileID: 0}
@@ -1284,7 +1331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 0}
+  m_AnchoredPosition: {x: -3.28, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &895574270
@@ -1375,7 +1422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.05, y: 0.35}
+  m_AnchoredPosition: {x: 2.05, y: 0.29}
   m_SizeDelta: {x: 5.362, y: 1.1624}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910408425
@@ -2247,7 +2294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774254353045435196, guid: 7a9f1935c497b6c418234f21ac61bc44, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -180.00002
+      value: -166
       objectReference: {fileID: 0}
     - target: {fileID: 2774254353045435196, guid: 7a9f1935c497b6c418234f21ac61bc44, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2518,7 +2565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.3111, y: 0.997}
+  m_AnchoredPosition: {x: 2.3111, y: 1.25}
   m_SizeDelta: {x: 5.362, y: 1.1624}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1402599507
@@ -3517,7 +3564,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.9442267
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3795,7 +3842,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976255453}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalPosition: {x: -3.28, y: 0, z: 0}
   m_LocalScale: {x: 15, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
