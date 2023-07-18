@@ -6,9 +6,11 @@ using UnityEngine;
 public class GameData
 {
     public int appleCollected;
+    public bool secretCollected;
 
     public GameData()
     {
         this.appleCollected = 0;
+        this.secretCollected = false;
     }
 }

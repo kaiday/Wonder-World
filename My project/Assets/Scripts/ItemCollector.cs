@@ -36,10 +36,12 @@ public class ItemCollector : MonoBehaviour, IDataPersistence
     public void LoadData(GameData data)
     {
         this.apples = data.appleCollected;
+        this.secretCollected = data.secretCollected;
     }
 
     public void SaveData(ref GameData data)
     {
         data.appleCollected = this.apples;
+        data.secretCollected = this.secretCollected;
     }
 }
