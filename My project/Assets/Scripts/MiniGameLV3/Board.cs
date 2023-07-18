@@ -108,7 +108,7 @@ public class Board : MonoBehaviour
                 hintText.text = "Vật dụng để múc và khuấy";
                 hintText.gameObject.SetActive(true);
                 break;
-            case "stick":
+            case "stick":   
                 hintText.text = "Cái que nhỏ để xiên";
                 hintText.gameObject.SetActive(true);
                 break;
