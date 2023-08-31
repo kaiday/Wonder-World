@@ -31,6 +31,8 @@ public class AudioManager : MonoBehaviour
 
     private int maxValue;
     private int minValue;
+    private float delayTime = 1f;
+    private float duration = 0.5f;
     
     private void Start()
     {
@@ -118,28 +120,27 @@ public class AudioManager : MonoBehaviour
             currentItem = minValue;
         }
     }
-    
+        
     IEnumerator moveprevItem()
     {
-        audioCanvas.transform.DOMoveX(-16f, 1.5f, false);
-        yield return new WaitForSeconds(1.5f);
+        audioCanvas.transform.DOMoveX(-16f, duration);
+
         currentItem--;
         checkListOverflow();
         itemChange();
-        audioCanvas.transform.DOMoveX(16f, 0f, true);
-        yield return new WaitForSeconds(1.5f);
-        audioCanvas.transform.DOMoveX(0f, 1.5f, false);
+        audioCanvas.transform.DOMoveX(16f, 0f);
+        audioCanvas.transform.DOMoveX(0f, duration);
+        yield return new WaitForSeconds(delayTime);
     }
 
     IEnumerator movenextItem()
     {
-        audioCanvas.transform.DOMoveX(16f, 1.5f, false);
-        yield return new WaitForSeconds(1.5f);
+        audioCanvas.transform.DOMoveX(16f, duration);
         currentItem++;
         checkListOverflow();
         itemChange();
-        audioCanvas.transform.DOMoveX(-16f, 0f, true);
-        yield return new WaitForSeconds(1.5f);
-        audioCanvas.transform.DOMoveX(0f, 1.5f, false);
+        audioCanvas.transform.DOMoveX(-16f, 0f);
+        audioCanvas.transform.DOMoveX(0f, duration);
+        yield return new WaitForSeconds(delayTime);
     }
 }

@@ -592,7 +592,7 @@ RectTransform:
   m_GameObject: {fileID: 511819036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 811567024}
@@ -714,7 +714,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -1663770179057657674, guid: 98c2d853e8b900b40a1e54da51c16ec4, type: 2}
@@ -1143,7 +1143,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1905085341}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1152,7 +1152,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &811567024
 RectTransform:
@@ -1200,34 +1200,27 @@ MonoBehaviour:
   - itemImg: {fileID: -569523962, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Laptop
     spelling: "/\u02C8l\xE6p.t\u0251\u02D0p/"
-    desc: "m\u1ED9t m\xE1y t\xEDnh \u0111\u1EE7 nh\u1ECF \u0111\u1EC3 d\u1EC5 d\xE0ng
-      mang theo v\xE0 ph\u1EB3ng khi \u0111\xF3ng"
+    desc: "M\xE1y t\xEDnh x\xE1ch tay"
     audio: {fileID: 8300000, guid: ec96d4c8b2c87a04c9cde742d26c126a, type: 3}
   - itemImg: {fileID: -1390421933, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Telephone
     spelling: "/\u02C8tel\u026Af\u0259\u028An/"
-    desc: "m\u1ED9t c\xF4ng c\u1EE5 \u0111\u1EC3 n\xF3i chuy\u1EC7n v\u1EDBi ai \u0111\xF3
-      t\u1EEB xa, s\u1EED d\u1EE5ng d\xF2ng \u0111i\u1EC7n ch\u1EA1y d\u1ECDc theo
-      d\xE2y ho\u1EB7c s\xF3ng v\xF4 tuy\u1EBFn"
+    desc: "\u0110i\u1EC7n tho\u1EA1i"
     audio: {fileID: 8300000, guid: 7f60679440abeae409e257b90ab09515, type: 3}
   - itemImg: {fileID: -1104974495, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Camera
     spelling: "/\u02C8k\xE6m.r\u0259/"
-    desc: "m\u1ED9t thi\u1EBFt b\u1ECB \u0111\u1EC3 ch\u1EE5p \u1EA3nh ho\u1EB7c
-      l\xE0m phim ho\u1EB7c ch\u01B0\u01A1ng tr\xECnh truy\u1EC1n h\xECnh"
+    desc: "M\xE1y \u1EA3nh,M\xE1y quay"
     audio: {fileID: 8300000, guid: 096b1b943c375b945a917bc4efb850e2, type: 3}
   - itemImg: {fileID: 1685289731, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Candle
     spelling: "/\u02C8k\u04D5ndl/"
-    desc: "m\u1ED9t mi\u1EBFng s\xE1p \u0111\xFAc/\u0111\xFAc c\xF3 b\u1EA5c \u1EDF
-      gi\u1EEFa, \u0111\u1EC3 t\u1EA1o \xE1nh s\xE1ng"
+    desc: "N\u1EBFn"
     audio: {fileID: 8300000, guid: d33c839c76ffbdb40a6075b1eda69cad, type: 3}
   - itemImg: {fileID: 493750595, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Keys
     spelling: "/ki\u02D0/"
-    desc: "m\u1ED9t mi\u1EBFng kim lo\u1EA1i \u0111\u01B0\u1EE3c c\u1EAFt th\xE0nh
-      h\xECnh d\u1EA1ng \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng \u0111\u1EC3 m\u1EDF
-      ho\u1EB7c \u0111\xF3ng kh\xF3a \xF4 t\xF4, nh\xE0 c\u1EEDa,  v.v."
+    desc: "Ch\xECa kh\xF3a"
     audio: {fileID: 8300000, guid: 98b9582c5601bf642bbd607180237db6, type: 3}
   - itemImg: {fileID: 1982262772, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Trash can
@@ -1237,29 +1230,22 @@ MonoBehaviour:
   - itemImg: {fileID: -1783132634, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Notebook
     spelling: "/\u02C8no\u028At.b\u028Ak/"
-    desc: "m\u1ED9t cu\u1ED1n s\xE1ch b\u1EB1ng gi\u1EA5y th\u01B0\u1EDDng ho\u1EB7c
-      gi\u1EA5y c\xF3 d\xF2ng, \u0111\u1EC3 vi\u1EBFt tr\xEAn"
+    desc: "Quy\u1EC3n v\u1EDF"
     audio: {fileID: 8300000, guid: 9dc4aa11ff5d59a47a5f4b0eeb9df027, type: 3}
   - itemImg: {fileID: -2133944384, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Ruler
     spelling: "/\u02C8ru\u02D0.l\u025A/"
-    desc: "m\u1ED9t v\u1EADt ph\u1EB3ng, h\u1EB9p v\u1EDBi c\xE1c c\u1EA1nh th\u1EB3ng
-      d\xF9ng \u0111\u1EC3 v\u1EBD c\xE1c \u0111\u01B0\u1EDDng th\u1EB3ng v\xE0 c\xF3
-      c\xE1c d\u1EA5u d\xF9ng \u0111\u1EC3 \u0111o \u0111\u1ED9 d\xE0i"
+    desc: "Th\u01B0\u1EDBc k\u1EBB"
     audio: {fileID: 8300000, guid: 4dc5b7b3734ccb54388708810bc69699, type: 3}
   - itemImg: {fileID: -673838016, guid: 7eeab2d27c765fd4c8b0e1da54c08f38, type: 3}
     name: Clock
     spelling: "/kl\u0251\u02D0k/"
-    desc: "m\u1ED9t thi\u1EBFt b\u1ECB \u0111\u1EC3 \u0111o v\xE0 hi\u1EC3n th\u1ECB
-      th\u1EDDi gian, th\u01B0\u1EDDng \u0111\u01B0\u1EE3c t\xECm th\u1EA5y trong
-      ho\u1EB7c tr\xEAn m\u1ED9t t\xF2a nh\xE0"
+    desc: "\u0110\u1ED3ng h\u1ED3"
     audio: {fileID: 8300000, guid: 96598b9c91d8af744ac1733f0f06dd77, type: 3}
   - itemImg: {fileID: 1092562901, guid: 013b8d86aa040c54b867d541cecb03b4, type: 3}
     name: Pencil
     spelling: "/\u02C8pen.s\u0259l/"
-    desc: "m\u1ED9t v\u1EADt d\xE0i, m\u1ECFng, th\u01B0\u1EDDng l\xE0m b\u1EB1ng
-      g\u1ED7, \u0111\u1EC3 vi\u1EBFt ho\u1EB7c v\u1EBD, c\xF3 m\u1ED9t \u0111\u1EA7u
-      nh\u1ECDn m\xE0u \u0111en ho\u1EB7c m\xE0u \u1EDF m\u1ED9t \u0111\u1EA7u"
+    desc: "B\xFAt ch\xEC"
     audio: {fileID: 8300000, guid: ea756990fd5f4fd4e98a7cd954bbd2ab, type: 3}
   source: {fileID: 1510528087}
   currentItem: 0
@@ -1387,7 +1373,7 @@ RectTransform:
   m_GameObject: {fileID: 910408423}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 811567024}
@@ -2530,7 +2516,7 @@ RectTransform:
   m_GameObject: {fileID: 1402599505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 811567024}
@@ -3016,7 +3002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.10374182}
   m_AnchorMax: {x: 0.5, y: 0.10374182}
-  m_AnchoredPosition: {x: 0, y: -4.23999}
+  m_AnchoredPosition: {x: 0, y: -4.239975}
   m_SizeDelta: {x: 112, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1754238211
@@ -3539,7 +3525,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1818036905
 RectTransform:
@@ -3879,7 +3865,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 99987e341bab88b4987935f3daca0e93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
