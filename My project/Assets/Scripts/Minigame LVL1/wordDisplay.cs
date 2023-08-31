@@ -31,6 +31,11 @@ public class wordDisplay : MonoBehaviour
     private void Update()
     {
         transform.Translate(0f, -fallSpeed * Time.deltaTime, 0f);
+        
+        if (score.gameEnded == true)
+        {
+            removeWord();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

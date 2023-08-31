@@ -8,6 +8,7 @@ public class wordScore : MonoBehaviour
     public int Score = 0;
     public int Lives = 3;
     public int Count = 0;
+    public bool gameEnded = false;
     public wordRestart restart;
     public GameObject display;   
     private int finalScore;
@@ -67,6 +68,8 @@ public class wordScore : MonoBehaviour
             finalScore = Score * Count;
             restart.continueButton.SetActive(true);
             restart.retryButton.SetActive(true);
-            display.SetActive(false); }
+            display.SetActive(false);
+            gameEnded = true;
+        }
     }
 }

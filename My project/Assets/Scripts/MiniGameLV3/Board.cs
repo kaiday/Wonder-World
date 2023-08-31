@@ -32,8 +32,8 @@ public class Board : MonoBehaviour
     public Tile.State incorrectState;
 
     [Header("UI")]
-    public Button tryAgainButton;
-    public Button newWordButton;
+    public GameObject tryAgainButton;
+    public GameObject newWordButton;
     public TextMeshProUGUI invalidWordText;
     [SerializeField] private GameObject exit;
     
