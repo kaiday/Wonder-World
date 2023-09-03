@@ -11,14 +11,12 @@ public class ItemCollector : MonoBehaviour, IDataPersistence
     [SerializeField] private Text applesText;
     [SerializeField] private Text secretText;
 
-    [SerializeField] private AudioSource collectionSoundEffect;
-    [SerializeField] private AudioSource secretSFX;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Apple"))
         {
-            collectionSoundEffect.Play();
+            FindObjectOfType<SoundManager>().playSFX("collect");
             Destroy(collision.gameObject);
             apples++;
             applesText.text = "Apples: " + apples;
@@ -28,7 +26,7 @@ public class ItemCollector : MonoBehaviour, IDataPersistence
         {
             Destroy(collision.gameObject);
             secretCollected = true;
-            secretSFX.Play();
+            FindObjectOfType<SoundManager>().playSFX("secret");
             secretText.text = "Secret has been found!";
         }
     }
