@@ -5,6 +5,7 @@ using UnityEngine;
 public class StickyPlatform : MonoBehaviour
 {
 
+    public GameObject platformController;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -17,7 +18,12 @@ public class StickyPlatform : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.transform.SetParent(null);
+            collision.gameObject.transform.SetParent(getObjectCurrentMap(platformController).transform);
         }
+    }
+
+    private GameObject getObjectCurrentMap(GameObject gameObject)
+    {
+        return gameObject.GetComponent<platformMapControl>().map;
     }
 }

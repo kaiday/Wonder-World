@@ -29,7 +29,6 @@ public class DataPersistenceManager : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(Application.persistentDataPath);
         this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName, useEncryption);
         this.dataPersistenceObjects = FindAllDataPersistenceObjects();
         LoadGame();
@@ -56,9 +55,6 @@ public class DataPersistenceManager : MonoBehaviour
         {
             dataPersistenceObj.LoadData(gameData);
         }
-
-        Debug.Log("Apple Collected = " + gameData.appleCollected);
-        Debug.Log("Secret collected ? " + gameData.secretCollected);
     }
 
     public void SaveGame()
@@ -68,8 +64,6 @@ public class DataPersistenceManager : MonoBehaviour
         {
             dataPersistenceObj.SaveData(ref gameData);
         }
-        
-        Debug.Log("Saved apples = " + gameData.appleCollected);
         // ToDo - save the data to file using data Handler
         dataHandler.save(gameData);
     }

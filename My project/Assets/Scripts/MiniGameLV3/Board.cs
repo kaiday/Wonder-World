@@ -67,7 +67,6 @@ public class Board : MonoBehaviour
 
     public void Exit()
     {
-        ExitGame();
         enabled = true;
     }
 
@@ -252,11 +251,6 @@ public class Board : MonoBehaviour
     private void OnDisable(){
         tryAgainButton.gameObject.SetActive(true);
         newWordButton.gameObject.SetActive(true);
-    }
-    public void ExitGame()
-    {
-        
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // Replace "MainMenu" with the name of your main menu scene
     }
 }
 

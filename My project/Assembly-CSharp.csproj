@@ -82,10 +82,13 @@
     <Compile Include="Assets\Scripts\death.cs" />
     <Compile Include="Assets\Scripts\MiniGameLV3\Row.cs" />
     <Compile Include="Assets\Scripts\FireTrap.cs" />
+    <Compile Include="Assets\ActiveMap.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\platformMapControl.cs" />
     <Compile Include="Assets\Scripts\Minigame LVL1\WordGenerator.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
+    <Compile Include="Assets\miniGameEnable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Finish.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -104,6 +107,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\DataPersistance\Data\GameData.cs" />
+    <Compile Include="Assets\changeMapOnScene.cs" />
     <Compile Include="Assets\Scripts\LVL 4 secret\Button.cs" />
     <Compile Include="Assets\Scripts\UI_Controller.cs" />
     <Compile Include="Assets\Scripts\QuizGame(LVL4)\QuestionAndAnswer.cs" />
@@ -115,6 +119,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\DataPersistance\DataPersistenceManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\MapActive.cs" />
     <Compile Include="Assets\Scripts\CharacterManager.cs" />
     <Compile Include="Assets\Scripts\Minigame LVL1\wordInput.cs" />
     <Compile Include="Assets\Scripts\WordScrambleController.cs" />
