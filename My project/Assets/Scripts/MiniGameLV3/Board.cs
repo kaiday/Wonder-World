@@ -58,11 +58,13 @@ public class Board : MonoBehaviour
         SetRandomWord();
         SetRandomHint();
         enabled = true;
+        newWordButton.SetActive(false);
     }
     
     public void TryAgain(){
         ClearBoard();
         enabled = true;
+        tryAgainButton.SetActive(false);
     }
 
     public void Exit()
@@ -217,12 +219,14 @@ public class Board : MonoBehaviour
                 exit.SetActive(true);
             }
             enabled = false;
+            newWordButton.SetActive(true);
         }
 
         rowIndex++;
         columnIndex = 0;
         if (rowIndex >= rows.Length){
             enabled = false;
+            tryAgainButton.SetActive(true);
         }
     }
     private void ClearBoard(){
@@ -245,17 +249,9 @@ public class Board : MonoBehaviour
 
         return true;
     }
-    private void OnEnable(){
-        tryAgainButton.gameObject.SetActive(false);
-        newWordButton.gameObject.SetActive(false);
-    }
-    private void OnDisable(){
-        tryAgainButton.gameObject.SetActive(true);
-        newWordButton.gameObject.SetActive(true);
-    }
+    
     public void ExitGame()
     {
-        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // Replace "MainMenu" with the name of your main menu scene
     }
 }
