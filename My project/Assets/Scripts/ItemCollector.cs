@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ItemCollector : MonoBehaviour, IDataPersistence
+public class ItemCollector : MonoBehaviour
 {
     public int apples = 0;
     public bool secretCollected;
@@ -11,16 +11,13 @@ public class ItemCollector : MonoBehaviour, IDataPersistence
     [SerializeField] private Text applesText;
     [SerializeField] private Text secretText;
 
-    [SerializeField] private AudioSource collectionSoundEffect;
-    [SerializeField] private AudioSource secretSFX;
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Apple"))
         {
-            collectionSoundEffect.Play();
+            FindObjectOfType<SoundManager>().playSFX("collect");
             Destroy(collision.gameObject);
-            apples++;
+            apples += 1;
             applesText.text = "Apples: " + apples;
         }
 
@@ -28,20 +25,8 @@ public class ItemCollector : MonoBehaviour, IDataPersistence
         {
             Destroy(collision.gameObject);
             secretCollected = true;
-            secretSFX.Play();
+            FindObjectOfType<SoundManager>().playSFX("secret");
             secretText.text = "Secret has been found!";
         }
-    }
-
-    public void LoadData(GameData data)
-    {
-        this.apples = data.appleCollected;
-        this.secretCollected = data.secretCollected;
-    }
-
-    public void SaveData(ref GameData data)
-    {
-        data.appleCollected = this.apples;
-        data.secretCollected = this.secretCollected;
     }
 }

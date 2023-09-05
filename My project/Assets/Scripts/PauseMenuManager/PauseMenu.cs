@@ -38,22 +38,17 @@ public class PauseMenu : MonoBehaviour
         {
             if(GameIsPause) 
             {
-                if (changeMapOnScene.instance.enter.ToString() != "AnimalCatchMap")
-                {
-                    Cursor.lockState = CursorLockMode.None;
-                }
-
-                else if (changeMapOnScene.instance.enter.ToString() == SceneManager.GetActiveScene().name)
-                {
-                    Cursor.lockState = CursorLockMode.Locked;
-                }
                 Continue();
             }
             else
             {
-                Cursor.lockState = CursorLockMode.None;
                 Pause();
             }
+        }
+
+        else if(SceneManager.GetActiveScene().name == "End Creen")
+        {
+            PausePanel.SetActive(false);
         }
     }
 
