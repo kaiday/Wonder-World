@@ -34,7 +34,7 @@ public class SoundManager : MonoBehaviour
             s1.musicSource.clip = s1.clip;
             s1.musicSource.loop = s1.loop;
             s1.musicSource.panStereo = standard_stereo_pan;
-            s1.musicSource.volume = UIController.instance._musicSlider.value;
+            s1.musicSource.volume = 0.5f;
         }
 
         foreach (Sound s2 in sfxSounds)
@@ -42,9 +42,8 @@ public class SoundManager : MonoBehaviour
             s2.sfxSource = gameObject.AddComponent<AudioSource>();
             s2.sfxSource.clip = s2.clip;
             s2.panStereo = standard_stereo_pan;
-            s2.sfxSource.volume = UIController.instance._sfxSlider.value;
-            instance.sfxVolume(UIController.instance._sfxSlider.value);
-            instance.sfxName = s2.name;
+            s2.sfxSource.volume = 0.5f;
+            
         }
 
 
@@ -55,6 +54,7 @@ public class SoundManager : MonoBehaviour
         musicName = SceneManager.GetActiveScene().name;
 
         playMusic(musicName);
+
 
 
     }

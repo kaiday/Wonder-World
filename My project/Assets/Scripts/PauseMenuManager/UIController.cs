@@ -9,7 +9,7 @@ public class UIController : MonoBehaviour
 {
     public static UIController instance;
 
-    public Slider _musicSlider, _sfxSlider;
+    public Slider _musicSlider , _sfxSlider;
 
 
 
