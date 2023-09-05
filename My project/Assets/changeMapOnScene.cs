@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class changeMapOnScene : MonoBehaviour
 {
+    public static changeMapOnScene instance;
+
     public GameObject exit;
     public GameObject enter;
 
@@ -11,18 +13,15 @@ public class changeMapOnScene : MonoBehaviour
 
     private MapActive[] mapActiveList;
 
-    void Start()
+    private void Awake()
     {
-        
-    }
+        if (instance == null)
+        {
+            instance = this;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
-
-    private void OnTriggerEnter2D(Collider2D gameObject)
+            private void OnTriggerEnter2D(Collider2D gameObject)
     {
         if (gameObject.gameObject.CompareTag("Player"))
         {
@@ -36,3 +35,4 @@ public class changeMapOnScene : MonoBehaviour
         mapController.GetComponent<ActiveMap>().updateMapActive(exit, enter);
     }
 }
+    

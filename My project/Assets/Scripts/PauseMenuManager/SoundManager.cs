@@ -11,10 +11,11 @@ public class SoundManager : MonoBehaviour
 
     public Sound[] musicSounds, sfxSounds;
 
-    int scene_index;
-
     string musicName;
+
     string sfxName;
+
+    float standard_stereo_pan = -0.9f;
     private void Awake()
     {
         if (instance == null)
@@ -32,6 +33,7 @@ public class SoundManager : MonoBehaviour
             s1.musicSource = gameObject.AddComponent<AudioSource>();
             s1.musicSource.clip = s1.clip;
             s1.musicSource.loop = s1.loop;
+            s1.musicSource.panStereo = standard_stereo_pan;
             s1.musicSource.volume = UIController.instance._musicSlider.value;
         }
 
@@ -39,6 +41,7 @@ public class SoundManager : MonoBehaviour
         {
             s2.sfxSource = gameObject.AddComponent<AudioSource>();
             s2.sfxSource.clip = s2.clip;
+            s2.panStereo = standard_stereo_pan;
             s2.sfxSource.volume = UIController.instance._sfxSlider.value;
             instance.sfxVolume(UIController.instance._sfxSlider.value);
             instance.sfxName = s2.name;
@@ -49,30 +52,34 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        scene_index = SceneManager.GetActiveScene().buildIndex;
-
-        musicName = "Theme" + scene_index;
+        musicName = SceneManager.GetActiveScene().name;
 
         playMusic(musicName);
+
 
     }
 
     private void Update()
     {
-        int current_scene_index = SceneManager.GetActiveScene().buildIndex;
+        string current_music = SceneManager.GetActiveScene().name;
 
-        if (current_scene_index != scene_index)
+        if (current_music != musicName)
         {
             Sound s = Array.Find(musicSounds, x => x.name == musicName);
+
+            if (s == null) 
+            {
+                Debug.Log("Sound Not Found");
+            }
+
             s.musicSource.volume = 0;
 
-            scene_index = current_scene_index;
-
-            musicName = "Theme" + scene_index;
+            musicName = current_music;
 
             playMusic(musicName);
 
         }
+
     }
 
     public void playMusic(string name)

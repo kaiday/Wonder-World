@@ -96,7 +96,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\headcheck.cs" />
     <Compile Include="Assets\Scripts\EnableCursor.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuManager\Sound.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuManager\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\QRShowcase.cs" />
     <Compile Include="Assets\Scripts\MiniGameLV3\Tile.cs" />
     <Compile Include="Assets\Scripts\ButtonNumber.cs" />
@@ -129,6 +131,7 @@
     <Compile Include="Assets\Scripts\CursorLock.cs" />
     <Compile Include="Assets\Scripts\Showcase.cs" />
     <Compile Include="Assets\Scripts\QuizGame(LVL4)\AnswerScript.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuManager\SoundManager.cs" />
     <Compile Include="Assets\Scripts\WaypointFollower.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\AudioPlayer\ItemReference.cs" />
@@ -147,6 +150,7 @@
     <Compile Include="Assets\Scripts\Minigame LVL1\wordTimer.cs" />
     <Compile Include="Assets\Scripts\StickyPlatform.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuManager\UIController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Scripts\hideSecret.cs" />
     <Compile Include="Assets\Scripts\CharacterDatabase.cs" />
@@ -155,10 +159,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\PauseMenuManager\UIController.cs" />
-    <Compile Include="Assets\Scripts\PauseMenuManager\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\PauseMenuManager\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\PauseMenuManager\Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

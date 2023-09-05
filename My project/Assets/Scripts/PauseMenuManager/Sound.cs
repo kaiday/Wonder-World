@@ -8,12 +8,17 @@ public class Sound
 {
     public string name;
 
+    [HideInInspector]
     [Range(0f,0.5f)]
     public float volume;
+
+    [HideInInspector]
+    public float panStereo;
 
     public AudioClip clip;
 
     public bool loop;
 
+    [HideInInspector]
     public AudioSource musicSource, sfxSource;
 }

@@ -38,7 +38,15 @@ public class PauseMenu : MonoBehaviour
         {
             if(GameIsPause) 
             {
-                Cursor.lockState = CursorLockMode.Locked;
+                if (changeMapOnScene.instance.enter.ToString() != "AnimalCatchMap")
+                {
+                    Cursor.lockState = CursorLockMode.None;
+                }
+
+                else if (changeMapOnScene.instance.enter.ToString() == SceneManager.GetActiveScene().name)
+                {
+                    Cursor.lockState = CursorLockMode.Locked;
+                }
                 Continue();
             }
             else
@@ -66,6 +74,7 @@ public class PauseMenu : MonoBehaviour
     public void HomeButton()
     {
         PausePanel.SetActive(false);
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }
