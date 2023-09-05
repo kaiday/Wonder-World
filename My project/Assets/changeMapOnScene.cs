@@ -11,17 +11,6 @@ public class changeMapOnScene : MonoBehaviour
 
     private MapActive[] mapActiveList;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D gameObject)
     {
         if (gameObject.gameObject.CompareTag("Player"))

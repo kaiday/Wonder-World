@@ -9,6 +9,9 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
+    public GameObject Cmap;
+    public GameObject Nmap;
+
     public GameObject QuizPanel;
     public GameObject OverPanel;
 
@@ -37,7 +40,14 @@ public class QuizManager : MonoBehaviour
 
     public void retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        sceneLoad();
+        Destroy(Cmap);
+    }
+
+    private void sceneLoad()
+    {
+        GameObject instance = Instantiate(Resources.Load("QuizMap", typeof(GameObject))) as GameObject;
+        instance.transform.parent = Cmap.transform.parent;
     }
     
     public void GameOver()
