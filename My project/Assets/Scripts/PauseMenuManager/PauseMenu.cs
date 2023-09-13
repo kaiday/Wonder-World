@@ -46,10 +46,6 @@ public class PauseMenu : MonoBehaviour
             }
         }
 
-        else if(SceneManager.GetActiveScene().name == "End Creen")
-        {
-            PausePanel.SetActive(false);
-        }
     }
 
     public void Pause()
