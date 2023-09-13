@@ -5,14 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Finish : MonoBehaviour
 {
-    private AudioSource finishSound;
     public GameObject endCanvas;
 
     private bool levelCompleted = false;
 
     private void Start()
     {
-        finishSound = GetComponent<AudioSource>();
+        endCanvas = GameObject.Find("EndGame");
         endCanvas.SetActive(false);
     }
 
@@ -20,7 +19,7 @@ public class Finish : MonoBehaviour
     {
         if (collision.gameObject.name == "Player" && !levelCompleted)
         {
-            finishSound.Play();
+            FindObjectOfType<SoundManager>().playSFX("finish");
             levelCompleted = true;
             Invoke("CompleteLevel", 1.25f);
         }
