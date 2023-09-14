@@ -42056,6 +42056,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordPrefab: {fileID: 6862612968000080774}
   wordCanvas: {fileID: 5792794464788234122}
+  prefabRef: {fileID: 0}
+  score: {fileID: 0}
 --- !u!114 &5792794465152646179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42088,6 +42090,7 @@ MonoBehaviour:
   gameEnded: 0
   restart: {fileID: 5792794465152646182}
   display: {fileID: 6862612968000080774}
+  prefabRef: {fileID: 0}
 --- !u!114 &5792794465152646182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42103,7 +42106,6 @@ MonoBehaviour:
   retryButton: {fileID: 5792794463956415157}
   continueButton: {fileID: 5792794464067723339}
   skipButton: {fileID: 5792794465171946384}
-  Nmap: {fileID: 5792794464308148753}
   score: {fileID: 5792794465152646176}
 --- !u!114 &5792794465152646177
 MonoBehaviour:
