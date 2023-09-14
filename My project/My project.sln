@@ -19,6 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Universal.Runtime.csproj", "{8C062032-4A0E-F7DD-A289-79A549A08987}"
 EndProject
+<<<<<<< Updated upstream
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{32C3BDE6-E125-3128-82C1-25D0441455A3}"
+EndProject
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Burst", "Unity.Burst.csproj", "{768BBF1D-EC13-B258-0C08-0F6608410401}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Runtime", "Unity.2D.Animation.Runtime.csproj", "{3282F605-1BA0-A72B-E013-0963239ECC0E}"
@@ -29,8 +34,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Tim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipeline.Universal.ShaderLibrary", "Unity.RenderPipeline.Universal.ShaderLibrary.csproj", "{27FBFEC4-706F-6B4A-0FC5-1C4ECC06A8BC}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{32C3BDE6-E125-3128-82C1-25D0441455A3}"
 EndProject
+=======
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.SpriteShape.Runtime", "Unity.2D.SpriteShape.Runtime.csproj", "{8FC70C8D-9A2C-9E9F-7F62-429984607CBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect", "Unity.2D.PixelPerfect.csproj", "{62529D1F-B8E2-3138-286F-C5D1C984DDDD}"
@@ -151,6 +159,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Universal.Runtime.Player.csproj", "{2C994299-D56F-0137-5694-C9F17A6C6C06}"
 EndProject
+<<<<<<< Updated upstream
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{01581593-00CC-05E8-4BB5-DE9370206819}"
+EndProject
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Burst", "Unity.Burst.Player.csproj", "{4D61F92E-3A05-D38B-9ECD-34E21A744026}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Animation.Runtime", "Unity.2D.Animation.Runtime.Player.csproj", "{81F99F73-7E23-E2CC-D1BF-C98320328DF0}"
@@ -161,8 +174,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline", "Unity.Tim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipeline.Universal.ShaderLibrary", "Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj", "{3AF68F0C-6BE1-5444-948E-CC60B241DFE4}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{01581593-00CC-05E8-4BB5-DE9370206819}"
 EndProject
+=======
+>>>>>>> Stashed changes
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.SpriteShape.Runtime", "Unity.2D.SpriteShape.Runtime.Player.csproj", "{D68EBFE2-EE5A-559A-7786-756A05FA72C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect", "Unity.2D.PixelPerfect.Player.csproj", "{7BBD183A-00C4-EBA2-81A9-FC9441CA9806}"
@@ -225,6 +241,13 @@ Global
 		{8C062032-4A0E-F7DD-A289-79A549A08987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C062032-4A0E-F7DD-A289-79A549A08987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C062032-4A0E-F7DD-A289-79A549A08987}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+=======
+		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 		{768BBF1D-EC13-B258-0C08-0F6608410401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{768BBF1D-EC13-B258-0C08-0F6608410401}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{768BBF1D-EC13-B258-0C08-0F6608410401}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -245,10 +268,13 @@ Global
 		{27FBFEC4-706F-6B4A-0FC5-1C4ECC06A8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FBFEC4-706F-6B4A-0FC5-1C4ECC06A8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27FBFEC4-706F-6B4A-0FC5-1C4ECC06A8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> Stashed changes
 		{8FC70C8D-9A2C-9E9F-7F62-429984607CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8FC70C8D-9A2C-9E9F-7F62-429984607CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC70C8D-9A2C-9E9F-7F62-429984607CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -489,6 +515,13 @@ Global
 		{2C994299-D56F-0137-5694-C9F17A6C6C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C994299-D56F-0137-5694-C9F17A6C6C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C994299-D56F-0137-5694-C9F17A6C6C06}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+=======
+		{01581593-00CC-05E8-4BB5-DE9370206819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01581593-00CC-05E8-4BB5-DE9370206819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01581593-00CC-05E8-4BB5-DE9370206819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01581593-00CC-05E8-4BB5-DE9370206819}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 		{4D61F92E-3A05-D38B-9ECD-34E21A744026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D61F92E-3A05-D38B-9ECD-34E21A744026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D61F92E-3A05-D38B-9ECD-34E21A744026}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -509,10 +542,13 @@ Global
 		{3AF68F0C-6BE1-5444-948E-CC60B241DFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AF68F0C-6BE1-5444-948E-CC60B241DFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AF68F0C-6BE1-5444-948E-CC60B241DFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{01581593-00CC-05E8-4BB5-DE9370206819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01581593-00CC-05E8-4BB5-DE9370206819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01581593-00CC-05E8-4BB5-DE9370206819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01581593-00CC-05E8-4BB5-DE9370206819}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> Stashed changes
 		{D68EBFE2-EE5A-559A-7786-756A05FA72C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D68EBFE2-EE5A-559A-7786-756A05FA72C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68EBFE2-EE5A-559A-7786-756A05FA72C7}.Release|Any CPU.ActiveCfg = Release|Any CPU

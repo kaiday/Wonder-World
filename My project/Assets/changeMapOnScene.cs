@@ -11,6 +11,17 @@ public class changeMapOnScene : MonoBehaviour
 
     private MapActive[] mapActiveList;
 
+<<<<<<< Updated upstream
+=======
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
+>>>>>>> Stashed changes
     private void OnTriggerEnter2D(Collider2D gameObject)
     {
         if (gameObject.gameObject.CompareTag("Player"))

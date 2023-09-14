@@ -36,6 +36,11 @@ public class QuizManager : MonoBehaviour
         totalQuestion = QnA.Count;
         OverPanel.SetActive(false);
         generateQuestion();
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
     }
 
     public void retry()
@@ -49,7 +54,16 @@ public class QuizManager : MonoBehaviour
         GameObject instance = Instantiate(Resources.Load("QuizMap", typeof(GameObject))) as GameObject;
         instance.transform.parent = Cmap.transform.parent;
     }
+<<<<<<< Updated upstream
     
+=======
+
+    public void continueButton()
+    {
+        changeMapOnScene.instance.updateMapActive();
+    }
+
+>>>>>>> Stashed changes
     public void GameOver()
     {
         QuizPanel.SetActive(false);

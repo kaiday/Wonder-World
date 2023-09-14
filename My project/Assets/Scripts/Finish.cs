@@ -7,12 +7,17 @@ public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
     public GameObject endCanvas;
-
+    private Rigidbody2D rb;
     private bool levelCompleted = false;
 
     private void Start()
     {
+<<<<<<< Updated upstream
         finishSound = GetComponent<AudioSource>();
+=======
+        endCanvas = GameObject.Find("EndGame");
+        rb = GetComponent<Rigidbody2D>();
+>>>>>>> Stashed changes
         endCanvas.SetActive(false);
     }
 
@@ -22,10 +27,10 @@ public class Finish : MonoBehaviour
         {
             finishSound.Play();
             levelCompleted = true;
-            Invoke("CompleteLevel", 1.25f);
+            rb.bodyType = RigidbodyType2D.Static;
+            Invoke("CompleteLevel", 0.75f);
         }
     }
-
     private void CompleteLevel()
     {
         endCanvas.SetActive(true);
