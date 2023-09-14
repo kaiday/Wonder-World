@@ -7,7 +7,6 @@ public class wordRestart : MonoBehaviour
     [SerializeField] public GameObject continueButton;
     [SerializeField] public GameObject skipButton;
 
-    public GameObject Nmap;
     public wordScore score;
     void Start()
     {
@@ -16,11 +15,14 @@ public class wordRestart : MonoBehaviour
         skipButton.SetActive(false);
     }
 
-    public void retry()
+    public void restart()
     {
-        GameObject instance = Instantiate(Resources.Load(Nmap.name, typeof(GameObject))) as GameObject;
-        instance.transform.parent = this.transform.parent;
-        Destroy(this);
+        retryButton.SetActive(false);
+        continueButton.SetActive(false);
+        skipButton.SetActive(false);
+        score.gameEnded = false;
+        score.Lives = 3;
+        score.Score = score.Count = 0;
     }
 
     public void skip()
