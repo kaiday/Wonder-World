@@ -12,7 +12,15 @@ public class changeMapOnScene : MonoBehaviour
 
     private MapActive[] mapActiveList;
 
-    private void OnTriggerEnter2D(Collider2D gameObject)
+    private void Update()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
+        private void OnTriggerEnter2D(Collider2D gameObject)
     {
         if (gameObject.gameObject.CompareTag("Player"))
         {

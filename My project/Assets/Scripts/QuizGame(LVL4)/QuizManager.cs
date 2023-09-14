@@ -1,5 +1,4 @@
 
-using System;
 using UnityEngine.Pool;
 using System.Collections.Generic;
 using UnityEngine;
@@ -36,22 +35,24 @@ public class QuizManager : MonoBehaviour
     public Sprite Gold;
 
     private bool activate;
-    private GameObject buttonObj;
-    public Button continueButton;
-    public Button reasignContinueButton;
+
     private void Start()
     {
         totalQuestion = QnA.Count;
         GameObject Canvas = GameObject.Find("Canvas");
         Debug.Log(Canvas.name);
         OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
-        buttonObj = OverPanel.transform.Find("continueOption").gameObject;
-        continueButton = buttonObj.GetComponent<Button>();
         Debug.Log(OverPanel.name);
         OverPanel.SetActive(false);
+        activate = false;
         generateQuestion();
 
 
+    }
+
+    public void continueButton()
+    {
+        changeMapOnScene.instance.updateMapActive();
     }
 
     public void retry()
@@ -73,9 +74,6 @@ public class QuizManager : MonoBehaviour
             totalQuestion = QnA.Count;
             Debug.Log(Canvas.name);
             OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
-            buttonObj = OverPanel.transform.Find("continueOption").gameObject;
-            reasignContinueButton = buttonObj.AddComponent<Button>();
-            reasignContinueButton.onClick.AddListener(() => changeMapOnScene.instance.updateMapActive());
             Debug.Log(OverPanel.name);
             OverPanel.SetActive(false);
             QuizPanel = Canvas.transform.Find("PlayArea").gameObject;
@@ -89,6 +87,7 @@ public class QuizManager : MonoBehaviour
     {
         QuizPanel.SetActive(false);
         OverPanel.SetActive(true);
+        activate = true;
         compareMedal();
         ScoreTxt.text = scoreCount + "PTS";
         QuizText.text = quizCount + "/" + totalQuestion;
@@ -162,4 +161,6 @@ public class QuizManager : MonoBehaviour
             Ranking.GetComponent<Image>().sprite = Fail;
         }
     }
+
+
 }
