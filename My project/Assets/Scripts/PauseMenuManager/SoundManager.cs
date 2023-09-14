@@ -46,7 +46,6 @@ public class SoundManager : MonoBehaviour
             
         }
 
-
     }
 
     private void Start()
@@ -54,8 +53,6 @@ public class SoundManager : MonoBehaviour
         musicName = SceneManager.GetActiveScene().name;
 
         playMusic(musicName);
-
-
 
     }
 

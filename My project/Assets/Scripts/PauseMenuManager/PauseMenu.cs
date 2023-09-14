@@ -50,6 +50,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Pause()
     {
+        PausePanel = GameObject.Find("SettingUI");
         PausePanel.SetActive(true);
         Time.timeScale = 0f;
         GameIsPause = true;
@@ -57,6 +58,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Continue()
     {
+        PausePanel = GameObject.Find("SettingUI");
         PausePanel.SetActive(false);
         Time.timeScale = 1f;
         GameIsPause = false;

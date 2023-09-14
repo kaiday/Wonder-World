@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class changeMapOnScene : MonoBehaviour
 {
+    public static changeMapOnScene instance;
     public GameObject exit;
     public GameObject enter;
 

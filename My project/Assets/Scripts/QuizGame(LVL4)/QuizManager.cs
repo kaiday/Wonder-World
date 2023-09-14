@@ -1,7 +1,11 @@
+
+using System;
+using UnityEngine.Pool;
 using System.Collections.Generic;
 using UnityEngine;
+
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+
 
 public class QuizManager : MonoBehaviour
 {
@@ -31,25 +35,56 @@ public class QuizManager : MonoBehaviour
     public Sprite Silver;
     public Sprite Gold;
 
+    private bool activate;
+    private GameObject buttonObj;
+    public Button continueButton;
+    public Button reasignContinueButton;
     private void Start()
     {
         totalQuestion = QnA.Count;
+        GameObject Canvas = GameObject.Find("Canvas");
+        Debug.Log(Canvas.name);
+        OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
+        buttonObj = OverPanel.transform.Find("continueOption").gameObject;
+        continueButton = buttonObj.GetComponent<Button>();
+        Debug.Log(OverPanel.name);
         OverPanel.SetActive(false);
         generateQuestion();
+
+
     }
 
     public void retry()
     {
-        sceneLoad();
+        GameObject instantiate = Instantiate(Resources.Load("QuizMap", typeof(GameObject))) as GameObject;
+        instantiate.transform.parent = Cmap.transform.parent;
         Destroy(Cmap);
+        activate = true;
+
     }
 
-    private void sceneLoad()
+    private void Update()
     {
-        GameObject instance = Instantiate(Resources.Load("QuizMap", typeof(GameObject))) as GameObject;
-        instance.transform.parent = Cmap.transform.parent;
+        GameObject Canvas = GameObject.Find("Canvas");
+        OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
+
+        if (OverPanel.active != activate) {
+            Cmap = GameObject.Find("QuizManager").transform.parent.gameObject;
+            totalQuestion = QnA.Count;
+            Debug.Log(Canvas.name);
+            OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
+            buttonObj = OverPanel.transform.Find("continueOption").gameObject;
+            reasignContinueButton = buttonObj.AddComponent<Button>();
+            reasignContinueButton.onClick.AddListener(() => changeMapOnScene.instance.updateMapActive());
+            Debug.Log(OverPanel.name);
+            OverPanel.SetActive(false);
+            QuizPanel = Canvas.transform.Find("PlayArea").gameObject;
+            QuizPanel.SetActive(true);
+            generateQuestion();
+            activate = false;
+        }
     }
-    
+
     public void GameOver()
     {
         QuizPanel.SetActive(false);
