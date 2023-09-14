@@ -67,7 +67,7 @@ public class Board : MonoBehaviour
 
     public void Exit()
     {
-        enabled = true;
+        changeMapOnScene.instance.updateMapActive();
     }
 
     private void LoadData(){
