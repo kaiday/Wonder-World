@@ -13,6 +13,7 @@ public class wordScore : MonoBehaviour
     public GameObject display;   
     private int finalScore;
     private int medal;
+    public GameObject prefabRef;
 
     public void addScore()
     {
@@ -71,5 +72,16 @@ public class wordScore : MonoBehaviour
             display.SetActive(false);
             gameEnded = true;
         }
+        
+
+        if (gameEnded == true)
+        {
+            display = null;
+        }
+        else
+        {
+            display = prefabRef; 
+        }
+        
     }
 }

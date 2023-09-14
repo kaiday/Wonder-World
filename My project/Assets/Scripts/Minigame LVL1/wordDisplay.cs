@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,14 @@ public class wordDisplay : MonoBehaviour
     public wordScore score;
     public WordManager manager;
 
-    public float fallSpeed = 1f;
+    public float fallSpeed = 1.5f;
+
+    private void Start()
+    {
+        score = GameObject.Find("WordManager").GetComponent<wordScore>();
+        manager = GameObject.Find("WordManager").GetComponent<WordManager>();
+    }
+
     public void setWord(string word)
     {
         text.text = word;
