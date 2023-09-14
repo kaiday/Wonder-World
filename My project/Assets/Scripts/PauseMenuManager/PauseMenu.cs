@@ -46,10 +46,6 @@ public class PauseMenu : MonoBehaviour
             }
         }
 
-        else if(SceneManager.GetActiveScene().name == "End Creen")
-        {
-            PausePanel.SetActive(false);
-        }
     }
 
     public void Pause()
@@ -61,6 +57,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Continue()
     {
+        PausePanel = GameObject.Find("SettingUI");
         PausePanel.SetActive(false);
         Time.timeScale = 1f;
         GameIsPause = false;

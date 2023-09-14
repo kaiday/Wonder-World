@@ -6,6 +6,8 @@ public class wordRestart : MonoBehaviour
     [SerializeField] public GameObject retryButton;
     [SerializeField] public GameObject continueButton;
     [SerializeField] public GameObject skipButton;
+
+    public wordScore score;
     void Start()
     {
         retryButton.SetActive(false);
@@ -13,13 +15,20 @@ public class wordRestart : MonoBehaviour
         skipButton.SetActive(false);
     }
 
-    public void retry()
+    public void restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        retryButton.SetActive(false);
+        continueButton.SetActive(false);
+        skipButton.SetActive(false);
+        score.gameEnded = false;
+        score.Lives = 3;
+        score.Score = score.Count = 0;
     }
 
-    public void Continue()
+    public void skip()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        score.gameEnded = true;
+        retryButton.SetActive(true);
+        continueButton.SetActive(true);
     }
 }
