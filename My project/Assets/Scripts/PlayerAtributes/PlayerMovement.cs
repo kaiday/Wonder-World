@@ -109,7 +109,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void standStill()
     {
-        rb.bodyType = RigidbodyType2D.Static;
+        MovementState state = MovementState.idle;
+        anim.SetInteger("state", (int)state);
+        rb.bodyType = RigidbodyType2D.Kinematic;
     }
 
 }
