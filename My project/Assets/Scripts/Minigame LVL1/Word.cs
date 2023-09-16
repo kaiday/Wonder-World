@@ -7,16 +7,20 @@ public class Word
 {
     public string word;
     private int typeIndex;
+    public string translateWord;
 
     private wordDisplay display;
 
-    public Word(string _word, wordDisplay _display)
+    public Word(string _word, wordDisplay _display, string _translateWord)
     {
         word = _word;
         typeIndex = 0;
 
+        translateWord = _translateWord;
+
         display = _display;
-        display.setWord(word);
+        display.setWord(word, translateWord);
+        
     }
 
     public char getNextLetter()
@@ -35,7 +39,7 @@ public class Word
         bool wordTyped = (typeIndex >= word.Length);
         if (wordTyped)
         {
-            display.removeWord();
+            display.translate(word, translateWord);
         }
 
         return wordTyped;

@@ -16,7 +16,7 @@ public class WordManager : MonoBehaviour
 
     public void AddWord()
     {
-        Word word = new Word(WordGenerator.GetRandomWord(), wordSpawner.SpawnWord());
+        Word word = new Word(WordGenerator.GetRandomWord(), wordSpawner.SpawnWord(), WordGenerator.getTranslateWord());
         Debug.Log(word.word);
         
         words.Add(word);
@@ -49,6 +49,7 @@ public class WordManager : MonoBehaviour
         {
             hasActiveWord = false;
             words.Remove(activeWord);
+            
             wordScore.addScore();
         }
     }
