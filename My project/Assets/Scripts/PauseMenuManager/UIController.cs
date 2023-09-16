@@ -11,8 +11,6 @@ public class UIController : MonoBehaviour
 
     public Slider _musicSlider , _sfxSlider;
 
-
-
     private void Awake()
     {
         if (instance == null)

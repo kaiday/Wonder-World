@@ -20,7 +20,7 @@ public class changeMapOnScene : MonoBehaviour
         }
     }
 
-        private void OnTriggerEnter2D(Collider2D gameObject)
+    private void OnTriggerEnter2D(Collider2D gameObject)
     {
         if (gameObject.gameObject.CompareTag("Player"))
         {

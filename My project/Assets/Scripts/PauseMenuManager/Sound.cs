@@ -12,9 +12,6 @@ public class Sound
     [Range(0f,0.5f)]
     public float volume;
 
-    [HideInInspector]
-    public float panStereo;
-
     public AudioClip clip;
 
     public bool loop;

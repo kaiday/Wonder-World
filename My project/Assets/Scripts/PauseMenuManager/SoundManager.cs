@@ -15,7 +15,6 @@ public class SoundManager : MonoBehaviour
 
     string sfxName;
 
-    float standard_stereo_pan = -0.9f;
     private void Awake()
     {
         if (instance == null)
@@ -33,17 +32,14 @@ public class SoundManager : MonoBehaviour
             s1.musicSource = gameObject.AddComponent<AudioSource>();
             s1.musicSource.clip = s1.clip;
             s1.musicSource.loop = s1.loop;
-            s1.musicSource.panStereo = standard_stereo_pan;
-            s1.musicSource.volume = 0.5f;
+            s1.musicSource.volume = 0.4f;
         }
 
         foreach (Sound s2 in sfxSounds)
         {
             s2.sfxSource = gameObject.AddComponent<AudioSource>();
             s2.sfxSource.clip = s2.clip;
-            s2.panStereo = standard_stereo_pan;
-            s2.sfxSource.volume = 0.5f;
-            
+            s2.sfxSource.volume = 0.4f;         
         }
 
     }
@@ -67,6 +63,8 @@ public class SoundManager : MonoBehaviour
             if (s == null) 
             {
                 Debug.Log("Sound Not Found");
+                musicName = current_music;
+                return;
             }
 
             s.musicSource.volume = 0;
@@ -90,8 +88,10 @@ public class SoundManager : MonoBehaviour
 
         else
         {
-            s.musicSource.Play();
-            Debug.Log("Playing" + name);
+            s.musicSource.volume = UIController.instance._musicSlider.value;
+            Debug.Log(s.musicSource.volume);
+            s.musicSource.Play();      
+            Debug.Log("Playing" + s.name);
 
         }
     }
@@ -107,6 +107,7 @@ public class SoundManager : MonoBehaviour
 
         else
         {
+            s.volume = UIController.instance._sfxSlider.value;
             s.sfxSource.PlayOneShot(s.clip);
         }
     }

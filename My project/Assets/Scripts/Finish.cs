@@ -11,7 +11,7 @@ public class Finish : MonoBehaviour
 
     private void Start()
     {
-        endCanvas = GameObject.Find("EndGame");
+        endCanvas = GameObject.Find("EndGame").gameObject;
         endCanvas.SetActive(false);
     }
 
@@ -19,14 +19,11 @@ public class Finish : MonoBehaviour
     {
         if (collision.gameObject.name == "Player" && !levelCompleted)
         {
+            PlayerMovement.instance.standStill();
             FindObjectOfType<SoundManager>().playSFX("finish");
             levelCompleted = true;
-            Invoke("CompleteLevel", 1.25f);
+            endCanvas.SetActive(true);
         }
     }
 
-    private void CompleteLevel()
-    {
-        endCanvas.SetActive(true);
-    }
 }

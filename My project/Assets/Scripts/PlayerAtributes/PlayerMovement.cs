@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
     private Rigidbody2D rb;
     private BoxCollider2D coll;
     private SpriteRenderer sprite;
@@ -20,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
 
     private enum MovementState { idle, running, jumping, falling }
 
+    private void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -32,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        instance = this;
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
@@ -43,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
 
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
-
         UpdateAnimationState();
     }
 
@@ -100,4 +106,10 @@ public class PlayerMovement : MonoBehaviour
     {
         jumpDust.Play();
     }
+
+    public void standStill()
+    {
+        rb.bodyType = RigidbodyType2D.Static;
+    }
+
 }

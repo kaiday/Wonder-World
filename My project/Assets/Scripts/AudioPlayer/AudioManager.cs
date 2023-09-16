@@ -11,7 +11,6 @@ using Unity.VisualScripting;
 public class AudioManager : MonoBehaviour
 {
     public string menuName;
-    public string prevNextSceneName;
 
     private bool menuOn;
 
@@ -78,7 +77,7 @@ public class AudioManager : MonoBehaviour
 
     public void nextLevel()
     {
-        SceneManager.LoadScene(prevNextSceneName);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void closeMenu()

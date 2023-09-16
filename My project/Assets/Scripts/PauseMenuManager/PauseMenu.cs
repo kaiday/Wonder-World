@@ -27,6 +27,7 @@ public class PauseMenu : MonoBehaviour
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
         PausePanel = GameObject.Find("SettingUI");
         PausePanel.SetActive(false);
         GameIsPause = false;
@@ -38,10 +39,12 @@ public class PauseMenu : MonoBehaviour
         {
             if(GameIsPause) 
             {
+                Cursor.lockState = CursorLockMode.None;
                 Continue();
             }
             else
             {
+                Cursor.lockState = CursorLockMode.None;
                 Pause();
             }
         }

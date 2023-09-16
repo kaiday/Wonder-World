@@ -25,7 +25,7 @@ public class wordSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (score.gameEnded == true)
+        if (score.gameEnded == true && wordPrefab != null)
         {
             wordPrefab = null;
         }

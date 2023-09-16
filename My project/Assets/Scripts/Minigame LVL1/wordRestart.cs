@@ -28,7 +28,6 @@ public class wordRestart : MonoBehaviour
     public void skip()
     {
         score.gameEnded = true;
-        retryButton.SetActive(true);
-        continueButton.SetActive(true);
+        changeMapOnScene.instance.updateMapActive();
     }
 }

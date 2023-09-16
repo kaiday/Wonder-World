@@ -46,8 +46,6 @@ public class QuizManager : MonoBehaviour
         OverPanel.SetActive(false);
         activate = false;
         generateQuestion();
-
-
     }
 
     public void continueButton()
