@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WordGenerator : MonoBehaviour
 {
+    private static int randomIndex;
+    
     private static string[] wordList =
     {
         "cookie", "chocolate", "milk", "tea", "sushi",
@@ -15,11 +17,25 @@ public class WordGenerator : MonoBehaviour
         
     };
 
+    private static string[] translateList =
+    {
+        "Bánh quy", "Sôcôla", "Sữa", "Trà", "Sushi", "Quả đào",
+        "Quả táo", "Quả dứa", "Cá", "Phô mai", "Gà", "Bánh mì",
+        "Cà chua", "Dâu tây", "Quả bí ngô", "Dưa hấu", "Quả cherry"
+    };
+
     public static string GetRandomWord()
     {
-        int randomIndex = Random.Range(0, wordList.Length);
+        randomIndex = Random.Range(0, wordList.Length);
         string randomWord = wordList[randomIndex];
-
+        
         return randomWord;
+    }
+
+    public static string getTranslateWord()
+    {
+        int transIndex = randomIndex;
+        string transWord = translateList[transIndex];
+        return transWord;
     }
 }
