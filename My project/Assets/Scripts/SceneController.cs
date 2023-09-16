@@ -18,7 +18,11 @@ public class SceneController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
 
+    private void Update()
+    {
+        instance = this;
     }
     public void LoadLevel(string name)
     {

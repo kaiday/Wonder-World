@@ -25,6 +25,12 @@ public class UIController : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        instance = this;
+    }
+
+
     public void MusicVolume()
     {
         SoundManager.instance.musicVolume(_musicSlider.value);

@@ -34,17 +34,14 @@ public class QuizManager : MonoBehaviour
     public Sprite Silver;
     public Sprite Gold;
 
-    private bool activate;
-
+    private bool map_Changed;
+    private GameObject Canvas;
     private void Start()
     {
         totalQuestion = QnA.Count;
-        GameObject Canvas = GameObject.Find("Canvas");
-        Debug.Log(Canvas.name);
-        OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
-        Debug.Log(OverPanel.name);
+        Canvas = GameObject.Find("Canvas");
         OverPanel.SetActive(false);
-        activate = false;
+        map_Changed = false;
         generateQuestion();
     }
 
@@ -58,26 +55,16 @@ public class QuizManager : MonoBehaviour
         GameObject instantiate = Instantiate(Resources.Load("QuizMap", typeof(GameObject))) as GameObject;
         instantiate.transform.parent = Cmap.transform.parent;
         Destroy(Cmap);
-        activate = true;
+        map_Changed = true;
 
     }
 
     private void Update()
     {
-        GameObject Canvas = GameObject.Find("Canvas");
-        OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
-
-        if (OverPanel.active != activate) {
+        if (map_Changed = true) 
+        {
             Cmap = GameObject.Find("QuizManager").transform.parent.gameObject;
-            totalQuestion = QnA.Count;
-            Debug.Log(Canvas.name);
-            OverPanel = Canvas.transform.Find("WinnerScore").gameObject;
-            Debug.Log(OverPanel.name);
-            OverPanel.SetActive(false);
-            QuizPanel = Canvas.transform.Find("PlayArea").gameObject;
-            QuizPanel.SetActive(true);
-            generateQuestion();
-            activate = false;
+            map_Changed = false;
         }
     }
 
@@ -85,7 +72,7 @@ public class QuizManager : MonoBehaviour
     {
         QuizPanel.SetActive(false);
         OverPanel.SetActive(true);
-        activate = true;
+        map_Changed = false;
         compareMedal();
         ScoreTxt.text = scoreCount + "PTS";
         QuizText.text = quizCount + "/" + totalQuestion;

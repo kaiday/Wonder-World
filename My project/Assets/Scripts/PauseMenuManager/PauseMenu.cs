@@ -27,6 +27,7 @@ public class PauseMenu : MonoBehaviour
 
     void Start()
     {
+        instance = this;
         Cursor.lockState = CursorLockMode.None;
         PausePanel = GameObject.Find("SettingUI");
         PausePanel.SetActive(false);

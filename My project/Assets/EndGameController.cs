@@ -19,7 +19,7 @@ public class EndGameController : MonoBehaviour
     }
     public void MainMenu()
     {
-        SceneController.instance.LoadLevel(menuName);
+        SceneManagement.LoadScene(menuName);
     }
 
 

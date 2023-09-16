@@ -46,6 +46,7 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
+        instance = this;
         musicName = SceneManager.GetActiveScene().name;
 
         playMusic(musicName);
@@ -88,7 +89,7 @@ public class SoundManager : MonoBehaviour
 
         else
         {
-            s.musicSource.volume = UIController.instance._musicSlider.value;
+            s.musicSource.volume = UIController.instance._musicSlider.value;    
             Debug.Log(s.musicSource.volume);
             s.musicSource.Play();      
             Debug.Log("Playing" + s.name);
