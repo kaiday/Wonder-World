@@ -72,12 +72,12 @@ public class AudioManager : MonoBehaviour
 
     public void backMenu()
     {
-        SceneManager.LoadScene(menuName);
+        SceneController.instance.LoadLevel(menuName);
     }
 
     public void nextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void closeMenu()

@@ -20,15 +20,15 @@ public class SceneController : MonoBehaviour
         }
 
     }
-    public void LoadLevel()
+    public void LoadLevel(string name)
     {
-        StartCoroutine(LoadScene());
+        StartCoroutine(LoadScene(name));
     }
-    IEnumerator LoadScene()
+    IEnumerator LoadScene(string name)
     {
         animator.SetTrigger("End");
         yield return new WaitForSeconds(1);
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadSceneAsync(name);
         animator.SetTrigger("Start");
     }
 }
