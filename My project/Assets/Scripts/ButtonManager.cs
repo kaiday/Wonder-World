@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
     public int buttonNum;
+    [SerializeField] Animator animator;
     
     public void OnPress()
     {
@@ -25,14 +26,7 @@ public class ButtonManager : MonoBehaviour
                 break;
             case 4: SceneManager.LoadScene("Level 4");
                 break;
-            case 5: SceneManager.LoadScene("Animal broken");
-                break;
-            case 6: SceneManager.LoadScene("Multiple choice");
-                break;
-            case 7: SceneManager.LoadScene("Wordle");
-                break;
-            case 8: SceneManager.LoadScene("Word falling");
-                break;
+
             case 9: SceneManager.LoadScene("Level secret");
                 break;
             case 10: SceneManager.LoadScene("AnimalAudio");
@@ -45,4 +39,6 @@ public class ButtonManager : MonoBehaviour
                 break;
         }
     }
+
+
 }

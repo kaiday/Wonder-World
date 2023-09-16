@@ -11,7 +11,7 @@ public class EndGameController : MonoBehaviour
 
     public void nextLvl()
     {
-        SceneManager.LoadScene(nextlvlName);
+        SceneController.instance.LoadLevel();
     }
     public void Flashcard()
     {
@@ -21,4 +21,6 @@ public class EndGameController : MonoBehaviour
     {
         SceneManager.LoadScene(menuName);
     }
+
+
 }

@@ -111,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
     {
         MovementState state = MovementState.idle;
         anim.SetInteger("state", (int)state);
-        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.bodyType = RigidbodyType2D.Static;
     }
 
 }

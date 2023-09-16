@@ -11,7 +11,6 @@ public class SecretFinish : MonoBehaviour
     {
         if (collision.gameObject.name == "Player" && !levelCompleted)
         {
-            PlayerMovement.instance.standStill();
             FindObjectOfType<SoundManager>().playSFX("finish");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
