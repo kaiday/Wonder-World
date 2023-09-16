@@ -71,10 +71,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0fd0ca96f34e5f140959e46660752945, type: 3}
-    m_FontSize: 16
-    m_FontStyle: 0
+    m_FontSize: 24
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -98,7 +98,9 @@ MonoBehaviour:
   text: {fileID: 1484358006754015418}
   score: {fileID: 0}
   manager: {fileID: 0}
+  done: 0
   fallSpeed: 1
+  translateSpeed: 1
 --- !u!61 &2945313310318262867
 BoxCollider2D:
   m_ObjectHideFlags: 0
