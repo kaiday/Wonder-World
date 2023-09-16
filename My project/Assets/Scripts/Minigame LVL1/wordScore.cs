@@ -69,7 +69,6 @@ public class wordScore : MonoBehaviour
             finalScore = Score * Count;
             restart.continueButton.SetActive(true);
             restart.retryButton.SetActive(true);
-            display.SetActive(false);
             gameEnded = true;
         }
         
