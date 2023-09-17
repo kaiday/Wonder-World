@@ -24,12 +24,12 @@ public class WordManager : MonoBehaviour
     {
         foreach (Word word in words)
         {
-            if (word.missingLetter.Equals(letter.ToString()))
+            if (word.missingLetter.Equals(letter.ToString()) && !word.done)
             {
                 Debug.Log("Run");
                 word.WordTyped();
                 wordScore.addScore();
-                words.Remove(word);
+                word.done = true;
             }
         }
         

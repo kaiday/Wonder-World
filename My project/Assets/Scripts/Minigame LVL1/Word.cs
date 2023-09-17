@@ -9,6 +9,8 @@ public class Word
     public string missingLetter;
     public string translateWord;
     public string completeWord;
+
+    public bool done = false;
     
     private wordDisplay display;
 

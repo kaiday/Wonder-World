@@ -42023,11 +42023,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   words: []
+  word:
+    word: 
+    missingLetter: 
+    translateWord: 
+    completeWord: 
   wordSpawner: {fileID: 5792794465152646178}
   wordScore: {fileID: 5792794465152646176}
-  hasActiveWord: 0
-  activeWord:
-    word: 
 --- !u!114 &5792794465152646205
 MonoBehaviour:
   m_ObjectHideFlags: 0

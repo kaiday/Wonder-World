@@ -9,7 +9,7 @@ public class enemypatrol : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private Transform currentPoint;
-    public float speed;
+    public float speed = 10;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();// rb là rigidbody của cả obj
