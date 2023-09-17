@@ -46,6 +46,14 @@ public class enemypatrol : MonoBehaviour
             currentPoint = pointa.transform;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+        }
+    }
     private void flip()
     {
         Vector3 localScale = transform.localScale;
