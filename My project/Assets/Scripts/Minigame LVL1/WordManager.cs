@@ -8,55 +8,30 @@ public class WordManager : MonoBehaviour
 {
     public List<Word> words;
 
+    public Word word;
     public wordSpawner wordSpawner;
     public wordScore wordScore;
-    
-    public bool hasActiveWord;
-    public Word activeWord;
 
     public void AddWord()
     {
-        Word word = new Word(WordGenerator.GetRandomWord(), wordSpawner.SpawnWord(), WordGenerator.getTranslateWord());
-        Debug.Log(word.word);
+        word = new Word(WordGenerator.GetRandomWord(), wordSpawner.SpawnWord(), WordGenerator.getTranslateWord(), WordGenerator.radomMissing(), WordGenerator.missingLetter());
+        Debug.Log(word.word + " " + word.completeWord + " Missing: " + word.missingLetter);
         
         words.Add(word);
     }       
 
     public void TypeLetter(char letter)
     {
-        if (hasActiveWord)
+        foreach (Word word in words)
         {
-            if (activeWord.getNextLetter() == letter)
+            if (word.missingLetter.Equals(letter.ToString()))
             {
-                activeWord.TypeLetter();
+                Debug.Log("Run");
+                word.WordTyped();
+                wordScore.addScore();
+                words.Remove(word);
             }
         }
-        else
-        {
-            foreach (Word word in words)
-            {
-                if (word.getNextLetter() == letter)
-                {
-                    activeWord = word;
-                    hasActiveWord = true;
-                    word.TypeLetter();
-                    break;
-                }
-            }
-        }
-
-        if (hasActiveWord && activeWord.WordTyped())
-        {
-            hasActiveWord = false;
-            words.Remove(activeWord);
-            
-            wordScore.addScore();
-        }
-    }
-
-    public void removeActiveWord()
-    {
-        hasActiveWord = false;
-        words.Remove(activeWord);
+        
     }
 }

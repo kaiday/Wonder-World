@@ -6,42 +6,27 @@ using UnityEngine;
 public class Word
 {
     public string word;
-    private int typeIndex;
+    public string missingLetter;
     public string translateWord;
-
+    public string completeWord;
+    
     private wordDisplay display;
 
-    public Word(string _word, wordDisplay _display, string _translateWord)
+    public Word(string _word, wordDisplay _display, string _translateWord, string _missingWord, string _missingLetter)
     {
-        word = _word;
-        typeIndex = 0;
+        word = _missingWord;
 
         translateWord = _translateWord;
+        completeWord = _word;
 
+        missingLetter = _missingLetter;
         display = _display;
-        display.setWord(word, translateWord);
+        display.setWord(word, translateWord, completeWord);
         
     }
-
-    public char getNextLetter()
+    
+    public void WordTyped()
     {
-        return word[typeIndex];
-    }
-
-    public void TypeLetter()
-    {
-        typeIndex++;
-        display.removeLetter();
-    }
-
-    public bool WordTyped()
-    {
-        bool wordTyped = (typeIndex >= word.Length);
-        if (wordTyped)
-        {
-            display.translate(word, translateWord);
-        }
-
-        return wordTyped;
+        display.translate(word, translateWord, completeWord);
     }
 }

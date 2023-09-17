@@ -5,6 +5,10 @@ using UnityEngine;
 public class WordGenerator : MonoBehaviour
 {
     private static int randomIndex;
+    private static string randomWord;
+
+    public static int randomMissingIndex;
+    public static string randomMissingWord;
     
     private static string[] wordList =
     {
@@ -27,7 +31,7 @@ public class WordGenerator : MonoBehaviour
     public static string GetRandomWord()
     {
         randomIndex = Random.Range(0, wordList.Length);
-        string randomWord = wordList[randomIndex];
+        randomWord = wordList[randomIndex];
         
         return randomWord;
     }
@@ -37,5 +41,22 @@ public class WordGenerator : MonoBehaviour
         int transIndex = randomIndex;
         string transWord = translateList[transIndex];
         return transWord;
+    }
+
+    public static string radomMissing()
+    {
+        randomMissingIndex = Random.Range(0, randomWord.Length);
+        randomMissingWord = randomWord;
+        randomMissingWord = randomMissingWord.Remove(randomMissingIndex,1);
+        randomMissingWord = randomMissingWord.Insert(randomMissingIndex,"_");
+
+        return randomMissingWord;
+    }
+
+    public static string missingLetter()
+    {
+        char missingLetter = randomWord[randomMissingIndex];
+
+        return missingLetter.ToString();
     }
 }

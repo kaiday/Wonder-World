@@ -22,11 +22,11 @@ public class wordDisplay : MonoBehaviour
         manager = GameObject.Find("WordManager").GetComponent<WordManager>();
     }
 
-    public void setWord(string word, string translateWord)
+    public void setWord(string word, string translateWord, string completeWord)
     {
         if (done)
         {
-            text.text = word + " = " + translateWord;
+            text.text = completeWord + " = " + translateWord;
             text.color = Color.white;
         }
         else
@@ -35,16 +35,9 @@ public class wordDisplay : MonoBehaviour
         }
     }
 
-    public void removeLetter()
-    {
-        text.text = text.text.Remove(0,1);
-        text.color = Color.red;
-    }
-
     public void removeWord()
     {
         Destroy(gameObject);
-        manager.removeActiveWord();
     }
 
     private void Update()
@@ -68,26 +61,21 @@ public class wordDisplay : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Fire"))
-        {
+        {     
             removeWord();
             score.removeScore();
         }
     }
 
-    public void translate(string word, string translateWord)
+    public void translate(string word, string translateWord, string completeWord)
     {
-        manager.removeActiveWord();
         GetComponent<BoxCollider2D>().enabled = false;
         done = true;
         if (done)
         {
-            setWord(word, translateWord);
+            setWord(word, translateWord, completeWord);
         }
-        Invoke("destroyWord", 1.5f);
+        Invoke("removeWord", 1.5f);
     }
-
-    private void destroyWord()
-    {
-        Destroy(gameObject);
-    }
+    
 }
